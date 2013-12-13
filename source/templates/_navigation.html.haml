@@ -1,0 +1,10 @@
+%nav.paginate
+  - if is_blog_article?
+    - if current_article.previous_article.nil?
+      %a#prev.prev{:href => "/"} &#9664;
+    - else
+      %a#prev.prev{:href => current_article.previous_article.url} &#9664;
+    - unless current_article.next_article.nil?
+      %a#next.next{:href => current_article.next_article.url} &#9654;
+  - else
+    %a#prev.prev{:href => page_articles.first.previous_article.url} &#9664;

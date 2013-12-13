@@ -1,0 +1,14 @@
+!!!html
+%html
+  = partial "/templates/head"
+  %body
+    #lightbox
+    = partial "/templates/anchor"
+    .index
+      = partial "/templates/article"
+    = partial "/templates/footer"
+    / = partial "/templates/navigation"
+    / #bottom-pages
+    / = partial "/templates/navigation"
+    %script{:src => "/javascripts/image-zoom.js"}
+    %script{:src => "/javascripts/keyboard-navigation.js"}

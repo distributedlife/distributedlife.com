@@ -1,0 +1,19 @@
+%section.page
+  %article
+    .constrain-width
+      %header
+        %h1= page_articles.first.title
+      = page_articles.first.body
+      .copy.publication-date
+        %span
+          %strong when:
+          %small
+            = page_articles.first.date.strftime("%A, %B %d, ")
+            - year = page_articles.first.date.strftime("%Y")
+            = link_to year, blog_year_path(year)
+      .copy.posted-under
+        %span
+          %strong related:
+          =page_articles.first.tags.map{|tag| link_to tag, tag_path(tag)}.join(", ")
+  = partial "/templates/recent_articles"
+  

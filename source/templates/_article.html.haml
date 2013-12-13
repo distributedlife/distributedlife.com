@@ -1,0 +1,9 @@
+%section.page
+  %article
+    .constrain-width
+      - if current_article.metadata[:page]['date'] < DateTime.parse('2013-01-01') && !current_article.metadata[:page]['updated']
+        = partial "/templates/old"
+      %header
+        %h1= current_article.title
+      = current_article.body
+      = partial "/templates/meta"

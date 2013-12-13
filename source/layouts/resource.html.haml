@@ -1,0 +1,13 @@
+!!!html
+%html
+  = partial "/templates/head"
+  %body
+    #lightbox
+    = partial "/templates/anchor"
+    .index
+      = partial "/templates/article"
+    = partial "/templates/footer"
+    %nav.paginate
+      %a#prev.prev{:href => "/resources.html"} &#9664;
+    %script{:src => "/javascripts/image-zoom.js"}
+    %script{:src => "/javascripts/keyboard-navigation.js"}

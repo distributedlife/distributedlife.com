@@ -1,0 +1,15 @@
+---
+title: The Microwave Free Lifestyle
+date: 2009-11-06 23:55:00
+tags: cults, distributedlife, life, life, microwave, microwave-free-lifestyle, popcorn, ryan-boucher, rybo, 
+---
+<p class="MsoNormal"><span lang="EN-US">Since the start of June I have been living in my new place. It’s my first house, it’s all very exciting and I love it. One of the decisions I made when moving into my new place was the decision not to buy a microwave.</span></p>
+<p class="MsoNormal"><span lang="EN-US">It’s been five months now since I moved in and it’s time for me to review and share my thoughts on a Microwave Free Lifestyle.</span></p>
+<p class="MsoNormal"><span lang="EN-US">My original reasoning was that I wanted to improve the quality of the food I ate and therefore the quality of life. This meant not eating microwavable food and quite possibly using a saucepan if the need arose. Generally speaking I was making a conscious effort to produce and consume food that is both better for me and tastier.</span></p>
+<p class="MsoNormal"><span lang="EN-US">There were many detractors; reheating food that has been frozen, preparing baby’s milk, people who like their coffee hotter than it should be, cooking popcorn and the biggest one of all, convenience.</span></p>
+<p class="MsoNormal"><span lang="EN-US">How have I found it? Excellent. I’ve not missed the microwave at all. I have an espresso machine which I use to make delicious coffee or to warm babies milk should the need arise…it hasn’t yet.</span></p>
+<p class="MsoNormal"><span lang="EN-US">Now this isn’t to say that I’ve not used a microwave altogether since moving into my new house. There just isn’t one there. At work, for lunch, there is no stove top for me to reheat my food so I microwave is the only choice.</span></p>
+<p class="MsoNormal"><span lang="EN-US">My partner likes warmed muesli and coffee that is too hot for its own good. So there are some detractors going around saying it’s not all it’s cracked up to be. I will agree remembering to defrost chicken in the morning is much harder than shoving it in the mic.</span></p>
+<p class="MsoNormal"><span lang="EN-US">One of the things I like most of all is making popcorn on the stove. It’s like a childhood memory, the popcorn pops and you get all giddy with delight. Except we had a hot air powered popcorn maker as a child. This would have been way better. A lack of butter one day forced us to use olive oil drizzled over the popcorn to help the salt stick. Olive oil tastes supremely better than butter on popcorn.</span></p>
+<p class="MsoNormal"><span lang="EN-US">If you have the chance I recommend you try it. Food always tastes better when it’s cooked properly and not having an easy way out forces you to cook some interesting creations when supplies get low.</span></p>
+<p class="MsoNormal"><span lang="EN-US">When my partner moves in with me next year, a microwave will inevitably return so these halcyon days can’t last forever.</span></p>

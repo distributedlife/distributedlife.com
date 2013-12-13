@@ -1,0 +1,52 @@
+---
+layout: false
+---
+!!!html
+%html
+  = partial "/templates/head"
+  %body
+    #lightbox
+    = partial "/templates/anchor"
+    .index
+      %section.page
+        %article
+          .constrain-width
+            %h2.copy
+              resources
+              - resources = blog.articles.select{|article| article.metadata[:options][:layout] == "resource"}
+              %h3.copy futures in software testing
+              .toc
+                - resources.select {|article| article.tags.include? "futures in software testing"}.each do |article|
+                  %p= link_to article.title, article
+              %h3.copy development
+              .toc
+                - resources.select {|article| article.tags.include? "development"}.each do |article|
+                  %p= link_to article.title, article
+              %h3.copy defects
+              .toc
+                - resources.select {|article| article.tags.include? "defects"}.each do |article|
+                  %p= link_to article.title, article
+              %h3.copy testing
+              .toc
+                - resources.select {|article| article.tags.include? "testing"}.each do |article|
+                  %p= link_to article.title, article
+              %h3.copy user interaction
+              .toc
+                - resources.select {|article| article.tags.include? "user interaction"}.each do |article|
+                  %p= link_to article.title, article
+              %h3.copy testing caches
+              .toc
+                - resources.select {|article| article.tags.include? "cache testing"}.each do |article|
+                  %p= link_to article.title, article
+              %h3.copy service testing
+              .toc
+                - resources.select {|article| article.tags.include? "service testing"}.each do |article|
+                  %p= link_to article.title, article
+              %h3.copy test automation
+              .toc
+                - resources.select {|article| article.tags.include? "test automation"}.each do |article|
+                  %p= link_to article.title, article
+    = partial "/templates/footer"
+    %nav.paginate
+      %a#prev.prev{:href => "/"} &#9664;
+    %script{:src => "/javascripts/keyboard-navigation.js"}

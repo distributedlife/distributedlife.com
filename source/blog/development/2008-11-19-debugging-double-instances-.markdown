@@ -1,0 +1,11 @@
+---
+title: Debugging Double Instances 
+date: 2008-11-19 23:56:36
+tags: class, coding, debug, debugging, debugging, double, duplicate, instance, object, 
+---
+<p class="MsoNormal" style="margin-bottom: 10pt;"><span style="font-family: ">I had a discussion with a friend at work today about the ways to identify a potential double instance of a class. Briefly, a double instance of a class, or any object, is when two objects are instantiated when only one should be and both are used at different times for the same purpose. This leaves you in a situation where you can see your data being set but when it comes to be used at a later point in time, possibly in a different part of the system, the data is no longer set.</span></p>
+<p class="MsoNormal" style="margin-bottom: 10pt;"><span style="font-family: ">The easiest way to see if you have a double instance problem is to check the memory addresses at various stages of the program. If they differ and they shouldn’t then you have a problem. Finding the causes is a little bit harder.</span></p>
+<p class="MsoNormal" style="margin-bottom: 10pt;"><span style="font-family: ">My first thought was to use a data breakpoint which is a handy little feature in some debuggers that throws a breakpoint when an address gets changed. Because these same debuggers always give the same memory addresses, assuming your application is deterministic, you will get notified when those address get written to.</span></p>
+<p class="MsoNormal" style="margin-bottom: 10pt;"><span style="font-family: ">The simpler option is to place a breakpoint in the constructor and then check the call stack in each place your object is being instantiated. This works a treat but has a few caveats. Firstly you need to be working with classes, your class needs a constructor and it is easier to observe if you don’t have a plethora of objects being instantiated.</span></p>
+<p class="MsoNormal" style="margin-bottom: 10pt;"><span style="font-family: ">The data breakpoint has the caveat that your debugger supports it and that it is enabled. For some reason in C# it wasn’t enabled.</span></p>
+<p class="MsoNormal" style="margin-bottom: 10pt;">If you have any good ideas to add to the list, let me know.</p>

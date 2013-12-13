@@ -1,0 +1,8 @@
+---
+title: Melbourne, F1 and Donations vs. Taxes
+date: 2009-04-11 23:55:47
+tags: bushfires, charity, distributedlife, donations, f1, formula-one, life, melbourne, taxes, victoria, 
+---
+At the end of March I was down in Melbourne watching the F1. <span> </span>When I bought my ticket it cost me $99 for Race Sunday. <span> </span>When I was in Melbourne I noticed posters advertising the price for $125 where $25 was being donated to the Victorian Bushfire Appeal; like it was a good thing.
+<p class="MsoNormal">That is not a donation. <span> </span>That is a tax and an offensive one at that. <span> </span>I don't have a problem people donating to those that lost everything and more. <span> </span>I went to SoundRelief in Sydney where all the money was donated to the Queensland Floods and the Victorian Bushfire Appeal. <span> </span>I knew this in advance, everyone paid the same and the organisers and performances donated their time and energy. <span> </span>Everyone donated something. <span> </span>The roadies gave their services for free on that day.</p>
+<p class="MsoNormal">What I object to is the Victorian Government and the F1 looking like the good guys by getting behind a good cause when they are in fact contributing a big fat fucking zero, forcing everyone who bought tickets after the fires to donate and then on top of all that, they keep the $1 remainder, no doubt as an "administration" charge for handling your donation.</p>
