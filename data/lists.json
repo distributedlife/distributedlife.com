@@ -1,0 +1,73 @@
+{
+	"movies": "https://goodfil.ms/distributedlife/ratings",
+		"love": [
+			"The Social Network",
+		],
+		"like": [
+			"Rear Window",
+			"The Lives of Others",
+			"The Hobbit: The Desolation of Smaug", 
+			"Skyfall",
+			"There Will be Blood",
+			"Der Uttergang - Unknown",
+			"Children of Men",
+			"American Hustle",
+			"Gravity",
+			"The Councillor",
+			"Die Hard with a Vengence"
+		],
+		"meh": [
+			"From Russia With Love",
+			"Thunderball - Unknown",
+			"Die Hard: Die Harder",
+			"Die Hard 4 - Unknown"
+		],
+		"quit": [
+			"Scream 3",
+			"Die Hard 5 - Unknown"
+		],
+		"backlog": [
+			"The Fifth Estate", 
+			"Indie Game", 
+			"Square"
+		]
+	},
+	"books": "https://www.goodreads.com/review/list/20552175.json?key=Y0G8oX5tsDQOV1FFuy0Ug&v=2&sort=rating&per_page=200",
+	"loved": "http://ws.audioscrobbler.com/2.0/?method=user.getlovedtracks&user=distributedlife&api_key=8adfa182c97d9bf48bdcb0dd3fda5ca1&format=json",
+	"artists": "http://ws.audioscrobbler.com/2.0/?method=user.gettopartists&user=distributedlife&api_key=8adfa182c97d9bf48bdcb0dd3fda5ca1&format=json",
+	"games": {
+		"love": [
+			"Rayman Origins - Ubisoft", 
+			"Gone Home - Unknown",
+			"Bit.TRIP Runner - Unknown",
+			"Quake - Id Software",
+			"Half Life - Valve",
+			"Half Life 2 - Valve",
+			"Left 4 Dead - Valve",
+			"Left 4 Dead 2 - Valve"
+		],
+		"like": [
+			"Rayman Legends - Ubisoft",
+			"Bioshock Infinite - Unknown",
+			"Borderlands 2 - Unknown",
+			"Starseed Pilgrim - Unknown",
+			"Quake II - Id Software",
+			"Quake III - Id Software",
+			"Half Life: Unknown - Valve",
+			"Geometry Wars - Unknown",
+			"Hexic - Unknown",
+			"Bejewelled - PopCap",
+			"Plants vs. Zombies - PopCap"
+		],
+		"meh": [
+			"Howling Dogs - Porpentine",
+			"Plants vs. Zombies 2 - PopCap"
+		],
+		"quit": [
+			"Heroes of Might and Magic VI - Unknown"
+		],
+		"backlog": [
+			"The Stanley Parable - Unknown"
+		]
+	}
+}
