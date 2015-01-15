@@ -1,0 +1,51 @@
+---
+layout: false
+---
+!!!html
+%html
+  %head
+    %meta{:charset => "utf-8"}
+    %meta{:content => "IE=edge,chrome=1", 'http-equiv' => "X-UA-Compatible"}
+    %meta{:name => "viewport", :content => "width=device-width", 'initial-scale' => 1}
+    %meta{:name => "description", :content => ""}
+    %meta{:name => "robots", :content => "index, follow"}
+    %title= "a distributed life: by Ryan Boucher"
+    = stylesheet_link_tag "blog"
+    = javascript_include_tag "vendor/jquery.min", "vendor/jquery.unveil.min", "do-unveil", 'keymaster.min', 'gist-embed'
+    %link{:rel => "alternate", :type => 'application/atom+xml', :title => "Atom feed", :href => "#{site_url}/rss"}
+  %body
+    .content
+      .big-options
+        .big-option{:onclick => "location.href='/index3.html';", :style => "background-image: url(http://fc05.deviantart.net/fs51/f/2009/311/6/d/My_current_wallpaper_by_Hybrid_Tech.jpg);"}
+          %span Tech
+        .big-option.back-invert
+          %span Ryan Boucher
+        .big-option{:onclick => "location.href='/index3.html';", :style => "background-image: url(https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcS1-0VcKAKfxo2-ZiJ-Tx0hg2fiotU26efUw6XLMu0cAxL68lMx);"}
+          %span Games
+        .big-option{:onclick => "location.href='/index3.html';", :style => "background-image: url(https://farm4.staticflickr.com/3931/15386305456_f4d2c4ed14_k.jpg);"}
+          %span Notes
+        .big-option{:style => "background-image: url(images/me.jpg)"}
+          %span &nbsp;
+        .big-option.invert{:onclick => "location.href='/index3.html';", :style => "background-image: url(/images/book.jpg);"}
+          %span Dates and Times
+        .big-option{:onclick => "location.href='/index3.html';", :style => "background-image: url(http://pas-wordpress-media.s3.amazonaws.com/content/uploads/2014/04/Ideas-Make-or-Break-Your-Business.jpg)"}
+          %span Ideas
+        .big-option.invert{:onclick => "location.href='/index3.html';", :style => "background-image: url(http://legacyproject.human.cornell.edu/files/2014/03/list-for-living.2-1xswisr.jpg)"}
+          %span Lists
+        .big-option
+          .connections
+            .twitter
+              %a.nozoom{:href => "http://twitter.com/distributedlife", :target => "_blank"}
+                %img.flat{:src => "/images/twitter.png"}
+            .github
+              %a.nozoom{:href => "http://github.com/distributedlife", :target => "_blank"}
+                %img.flat{:src => "/images/Octocat.png"}
+            .facebook
+              %a.nozoom{:href => "http://facebook.com/distributedlife", :target => "_blank"}
+                %img.flat{:src => "/images/facebook2.png"}
+            .plus
+              %a.nozoom{:href => "https://plus.google.com/u/0/+RyanBoucher_distributedlife/about/p/pub", :target => "_blank"}
+                %img.flat{:src => "/images/googleplus.png"}
+            .email
+              %a{:href => "mailto:ryan.boucher@distributedlife.com"}
+                %img.flat{:src => "/images/email.png"}

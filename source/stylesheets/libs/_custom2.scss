@@ -1,0 +1,257 @@
+body {
+  font-family: "Open Sans";
+}
+
+.anchor {
+  position: fixed;
+
+  width: 100%;
+  top: 0;
+  background-color: #bfcfec;
+
+  font-size: 1.6em;
+  font-weight: 100;
+  padding: 0.3em;
+
+  a {
+    color: white;
+    text-decoration: none;
+  }
+
+  a:hover {
+    color: #7a6ab9;
+  }
+}
+
+h1.article-header {
+  text-align:center;
+  color: black;
+  font-size: 3em;
+  text-transform: uppercase;
+  font-weight: 800;
+}
+
+.header {
+  position: relative;
+  z-index: -2;
+
+  h2 {
+    border-top: 1px solid #bfcfec;
+    color: white;
+    font: 800 20px/20px "open sans";
+    margin: 0 0 20px 0;
+    text-align: center;
+    text-transform: uppercase;
+
+
+    span {
+      background-color: white;
+      padding: 0 20px;
+      position: relative;
+      top: -10px;
+      font: 600 20px/20px "open sans";
+    }
+  }
+}
+
+.slide-out-h1 {
+  h1 {
+    color: #bfcfec;
+  }
+}
+
+.inline-header {
+  display: none;
+  position: fixed;
+  top: -7px;
+  width: 50%;
+
+  h1 {
+    margin-top: 0;
+    color: white;
+  }
+}
+
+.article {
+  padding-top: 3em;
+  width: 50%;
+  margin: 0 auto;
+  text-color: dark-gray;
+  font-weight: 100;
+
+  p {
+    padding-top: 1em;
+    font-size: 1.2em;
+    line-height: 1.6em;
+  }
+
+  ul, ol {
+    padding-left: 2em;
+  }
+
+  img {
+    text-align: center;
+  }
+}
+
+.footer {
+  width: 100%;
+  background-color: #bfcfec;
+}
+
+.asterism:before {
+  content: "⁂";
+}
+.asterism {
+  text-align: center;
+  font-size: 2em;
+  width: 20%;
+  margin: 0 auto;
+  padding-top: 0.6em;
+  padding-bottom: 0.6em;
+}
+
+#border {
+  margin-top: 1em;
+  cursor:pointer;
+}
+#border, #heart {
+    position:relative;
+    width:200px;
+    height:180px;
+    margin: 5em auto 3em auto;
+}
+#border:before, #border:after, #heart:before, #heart:after {
+    position: absolute;
+    content:"";
+    left: 100px;
+    top: 0;
+    width: 102px;
+    height: 160px;
+    border-radius: 100px 100px 0 0;
+}
+
+#border:before, #border:after {
+    background: green;
+}
+
+#heart:before, #heart:after {
+    background: #D6FFD6;
+    z-index: 1;
+}
+
+#heart:hover:before, #heart:hover:after {
+    background-color: green;
+    transition: background .5s ease-in-out;
+   -moz-transition: background .5s ease-in-out;
+   -webkit-transition: background .5s ease-in-out;
+}
+
+#border:before, #heart:before {
+    transform: rotate(-45deg);
+    transform-origin: 0 100%;
+}
+
+#border:after, #heart:after {
+    left: 0;
+    transform: rotate(45deg);
+    transform-origin :100% 100%;
+}
+
+#share {
+  img {
+    width: 30%;
+  }
+}
+
+.big-options {
+  min-height: 10%;
+  text-align: center;
+}
+
+.big-option {
+  display: inline-block;
+  width: 30%;
+  background-size: 100% 200px;
+  height: 200px;
+  margin: 5px;
+  overflow: hidden;
+
+  text-align: center;
+  color: white;
+  opacity: 0.8;
+
+  span {
+    opacity: 1;
+    font-size: 2em;
+    position: relative;
+    top: 75px;
+    text-transform: uppercase;
+    font-family: "open sans";
+    font-weight: 800;
+  }
+}
+
+.big-option:hover {
+  transition: all 0.25s;
+  opacity: 1;
+  cursor: pointer;
+}
+
+.invert {
+  color: black;
+}
+
+.back-invert {
+  color: black;
+  background-color: #bfcfec;
+}
+
+.bordered {
+  border: 1px #bfcfec solid;
+}
+
+.recently {
+  padding-top: 1em;
+}
+
+.content {
+  width: 80%;
+  margin: 5px auto;
+  min-height: 500px;
+
+  h1 {
+    padding-top: 1em;
+  }
+}
+
+.connections {
+  position: relative;
+  top: 35%;
+  overflow: hidden;
+
+  div {
+    display: inline-block;
+    text-align: center;
+    overflow: hidden;
+    width: 48px;
+    height: 48px;
+  }
+
+  img {
+    position: relative;
+    top: 8px;
+    width: 32px;
+    height: auto;
+  }
+
+  .twitter {
+    position: relative;
+    top: 3px;
+  }
+
+  .github {
+    position: relative;
+    top: 3px;
+  }
+}
