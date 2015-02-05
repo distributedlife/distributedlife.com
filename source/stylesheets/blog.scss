@@ -49,8 +49,8 @@ body {
   }
 
   @include media($desktop_client) {
-    @include span-columns(6);
-    @include shift(3);
+    @include span-columns(6.5);
+    @include shift(2.75);
   }
 
   -webkit-box-shadow: 4px 0px 10px 4px rgba(0,0,0,0.31);
