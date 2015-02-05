@@ -1,0 +1,23 @@
+/*
+Errno::ENOTDIR: Not a directory - stylesheets/sass
+
+Backtrace:
+/Users/distributedlife/projects/distributedlife.com/vendor/bundle/ruby/2.0.0/gems/sass-3.2.12/lib/sass/plugin/compiler.rb:360:in `read'
+/Users/distributedlife/projects/distributedlife.com/vendor/bundle/ruby/2.0.0/gems/sass-3.2.12/lib/sass/plugin/compiler.rb:360:in `update_stylesheet'
+/Users/distributedlife/projects/distributedlife.com/vendor/bundle/ruby/2.0.0/gems/sass-3.2.12/lib/sass/plugin/compiler.rb:203:in `block in update_stylesheets'
+/Users/distributedlife/projects/distributedlife.com/vendor/bundle/ruby/2.0.0/gems/sass-3.2.12/lib/sass/plugin/compiler.rb:201:in `each'
+/Users/distributedlife/projects/distributedlife.com/vendor/bundle/ruby/2.0.0/gems/sass-3.2.12/lib/sass/plugin/compiler.rb:201:in `update_stylesheets'
+/Users/distributedlife/projects/distributedlife.com/vendor/bundle/ruby/2.0.0/gems/sass-3.2.12/lib/sass/plugin/compiler.rb:235:in `watch'
+/Users/distributedlife/projects/distributedlife.com/vendor/bundle/ruby/2.0.0/gems/sass-3.2.12/lib/sass/plugin.rb:107:in `method_missing'
+/Users/distributedlife/projects/distributedlife.com/vendor/bundle/ruby/2.0.0/gems/sass-3.2.12/lib/sass/exec.rb:463:in `watch_or_update'
+/Users/distributedlife/projects/distributedlife.com/vendor/bundle/ruby/2.0.0/gems/sass-3.2.12/lib/sass/exec.rb:326:in `process_result'
+/Users/distributedlife/projects/distributedlife.com/vendor/bundle/ruby/2.0.0/gems/sass-3.2.12/lib/sass/exec.rb:41:in `parse'
+/Users/distributedlife/projects/distributedlife.com/vendor/bundle/ruby/2.0.0/gems/sass-3.2.12/lib/sass/exec.rb:21:in `parse!'
+/Users/distributedlife/projects/distributedlife.com/vendor/bundle/ruby/2.0.0/gems/sass-3.2.12/bin/sass:9:in `<top (required)>'
+/Users/distributedlife/projects/distributedlife.com/vendor/bundle/ruby/2.0.0/bin/sass:23:in `load'
+/Users/distributedlife/projects/distributedlife.com/vendor/bundle/ruby/2.0.0/bin/sass:23:in `<main>'
+*/
+body:before {
+  white-space: pre;
+  font-family: monospace;
+  content: "Errno::ENOTDIR: Not a directory - stylesheets/sass"; }

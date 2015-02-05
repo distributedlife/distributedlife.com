@@ -2,6 +2,14 @@ body {
   font-family: "Open Sans";
 }
 
+a {
+  text-decoration: none;
+}
+
+a:hover {
+  color: #7a6ab9;
+}
+
 .anchor {
   position: fixed;
 
@@ -11,15 +19,10 @@ body {
 
   font-size: 1.6em;
   font-weight: 100;
-  padding: 0.3em;
+  padding: 0.6em;
 
   a {
     color: white;
-    text-decoration: none;
-  }
-
-  a:hover {
-    color: #7a6ab9;
   }
 }
 
@@ -39,7 +42,7 @@ h1.article-header {
     border-top: 1px solid #bfcfec;
     color: white;
     font: 800 20px/20px "open sans";
-    margin: 0 0 20px 0;
+    margin: 0;
     text-align: center;
     text-transform: uppercase;
 
@@ -63,7 +66,7 @@ h1.article-header {
 .inline-header {
   display: none;
   position: fixed;
-  top: -7px;
+  top: 0px;
   width: 50%;
 
   h1 {
@@ -76,8 +79,8 @@ h1.article-header {
   padding-top: 3em;
   width: 50%;
   margin: 0 auto;
-  text-color: dark-gray;
   font-weight: 100;
+  border-bottom: 1px dotted #bfcfec;
 
   p {
     padding-top: 1em;
@@ -94,11 +97,6 @@ h1.article-header {
   }
 }
 
-.footer {
-  width: 100%;
-  background-color: #bfcfec;
-}
-
 .asterism:before {
   content: "⁂";
 }
@@ -112,23 +110,25 @@ h1.article-header {
 }
 
 #border {
+  float: right;
   margin-top: 1em;
   cursor:pointer;
+  display: inline-block;
 }
+
 #border, #heart {
     position:relative;
-    width:200px;
-    height:180px;
-    margin: 5em auto 3em auto;
+    width:100px;
+    height:90px;
 }
 #border:before, #border:after, #heart:before, #heart:after {
     position: absolute;
     content:"";
-    left: 100px;
+    left: 50px;
     top: 0;
-    width: 102px;
-    height: 160px;
-    border-radius: 100px 100px 0 0;
+    width: 52px;
+    height: 80px;
+    border-radius: 50px 50px 0 0;
 }
 
 #border:before, #border:after {
@@ -158,10 +158,45 @@ h1.article-header {
     transform-origin :100% 100%;
 }
 
-#share {
+.share {
+  display: inline-block;
+  opacity: 0.5;
+}
+
+.share:hover {
+  transition: all .5s ease-in-out;
+  opacity: 1;
+  cursor: pointer;
+}
+
+.share-options {
+//  position: relative;
+//  bottom: 24px;
+  display: inline-block;
+  border: 1px solid black;
+  width: 64px;
+
   img {
-    width: 30%;
+    width: 64px;
   }
+
+  div {
+    opacity: 0.5;
+  }
+
+  div:hover {
+    transition: all .5s ease-in-out;
+    opacity: 1;
+  }
+}
+
+.heart-options {
+  display: none;
+}
+
+.call-to-action {
+  width: 50%;
+  margin: 2em auto;
 }
 
 .big-options {
@@ -225,6 +260,11 @@ h1.article-header {
   }
 }
 
+.centered {
+  text-align: center;
+  box-shadow: 5px 5px 10px #888888;
+}
+
 .connections {
   position: relative;
   top: 35%;
@@ -254,4 +294,20 @@ h1.article-header {
     position: relative;
     top: 3px;
   }
+}
+
+.footer {
+  width: 100%;
+  background-color: #bfcfec;
+  padding: 0.3em;
+  font-size: 0.8em;
+}
+
+.who {
+  display: inline-block;
+}
+
+.when-and-where {
+  display: inline-block;
+  float: right;
 }
