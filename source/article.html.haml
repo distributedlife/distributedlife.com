@@ -45,7 +45,7 @@ layout: false
           %li Everyone deserves a safe workplace, put up the no velocityraptors sign, band together, be alert but not alarmed. Stay strong.
         .polaroid
           %figure
-            %img{:src => "http://thoughtworks.github.io/p2/images/velocityraptor/no-velocityraptor.png"}
+            %img{:src => "/images/no-velocityraptor.png"}
             %figcaption Be alert, but not alarmed
         %hr
         %p.author Written by Ryan Boucher
@@ -57,16 +57,16 @@ layout: false
         .share-options
           .twitter
             %a{:href => "javascript:twitterShare('https://twitter.com/share?via=distributedlife&text=On velocityraptors&dnt=true')", :class => "twitter-share-button"}
-              %img.flat{:src => "/images/twitter.png"}
+              %img.flat{:width=>"64px", :height => "64px", :src => "/images/twitter.png"}
           .google
             %a{:href => "https://plus.google.com/share?url={#{site_url}#{current_page.url}}", :onclick => "javascript:window.open(this.href, '', 'menubar=no,toolbar=no,resizable=yes,scrollbars=yes,height=600,width=600');return false;"}
-              %img{:src => "https://www.gstatic.com/images/icons/gplus-64.png", :alt => "Share on Google+"}
+              %img{:width=>"64px", :height => "64px", :src => "https://www.gstatic.com/images/icons/gplus-64.png", :alt => "Share on Google+"}
           .facebook
-            %a{:href => "javascript:fbShare('#{site_url}#{current_page.url}', 'On Velocityraptors', 'Description', 'http://thoughtworks.github.io/p2/images/velocityraptor/no-velocityraptor.png')"}
-              %img{:src => "images/facebook.png", :alt => "Share on Facebook"}
+            %a{:href => "javascript:fbShare('#{site_url}#{current_page.url}', 'On Velocityraptors', 'Description', '/images/no-velocityraptor.png')"}
+              %img{:width=>"64px", :height => "64px", :src => "images/facebook.png", :alt => "Share on Facebook"}
           .email
             %a{:href => "mailto:?subject=I think you'll enjoy this post On Velocityraptors&body=I still remember the first time I was stalked by a velocityraptor. The team stood in a semicircle around the wall and we repeated our oaths: what we did today, tomorrow and were we blocked. Once again like every day this week I had something to say, I was blocked. One of the challenges I faced was dealing with integration testing. It was difficult to get the other team organised, involved or even interested. #{site_url}#{current_page.url}"}
-              %img{:src => "images/email.png", :alt => "Share via Email"}
+              %img{:width=>"64px", :height => "64px", :src => "images/email.png", :alt => "Share via Email"}
         / .heart-options
         / .gittip
         / .patreon

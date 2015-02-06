@@ -217,7 +217,6 @@ body {
   display: block;
   margin-right: 2.35765%;
   width: 100%;
-  -webkit-box-shadow: 4px 0px 10px 4px rgba(0, 0, 0, 0.31);
   -moz-box-shadow: 4px 0px 10px 4px rgba(0, 0, 0, 0.31);
   box-shadow: 4px 0px 10px 4px rgba(0, 0, 0, 0.31); }
   .content:after {
@@ -272,7 +271,9 @@ article.type-system-traditional {
     margin: 0; }
   article.type-system-traditional img {
     background-color: white;
-    padding-top: 1em; }
+    padding-top: 1em;
+    width: 100%;
+    height: auto; }
   article.type-system-traditional hr {
     border-bottom: 1px solid #dddddd;
     border-left: none;
@@ -386,72 +387,7 @@ article.type-system-traditional {
 
 .call-to-action {
   text-align: center;
-  margin: 5em auto; }
-
-#border {
-  float: right;
-  margin-top: 1em;
-  cursor: pointer;
-  display: inline-block;
-  margin-right: 1em; }
-
-#border, #heart {
-  position: relative;
-  width: 100px;
-  height: 90px; }
-
-#border:before, #border:after, #heart:before, #heart:after {
-  position: absolute;
-  content: "";
-  left: 50px;
-  top: 0;
-  width: 52px;
-  height: 80px;
-  border-radius: 50px 50px 0 0; }
-
-#border:before, #border:after {
-  background: green; }
-
-#heart:before, #heart:after {
-  background: #D6FFD6;
-  z-index: 1; }
-
-#heart:hover:before, #heart:hover:after {
-  background-color: green;
-  transition: background .5s ease-in-out;
-  -moz-transition: background .5s ease-in-out;
-  -webkit-transition: background .5s ease-in-out; }
-
-#border:before, #heart:before {
-  transform: rotate(-45deg);
-  transform-origin: 0 100%; }
-
-#border:after, #heart:after {
-  left: 0;
-  transform: rotate(45deg);
-  transform-origin: 100% 100%; }
-
-.share {
-  display: inline-block;
-  opacity: 0.5; }
-
-.share:hover {
-  transition: all .5s ease-in-out;
-  opacity: 1;
-  cursor: pointer; }
-
-.share-options {
-  display: inline-block;
-  position: relative;
-  top: -20px; }
-  .share-options img {
-    width: 64px; }
-  .share-options div {
-    opacity: 0.5;
-    display: inline-block; }
-  .share-options div:hover {
-    transition: all .5s ease-in-out;
-    opacity: 1; }
+  margin: 2em auto; }
 
 .twitter {
   position: relative;
@@ -471,20 +407,23 @@ article.type-system-traditional {
   top: 4px;
   left: -4px; }
 
-.heart-options {
-  display: inline-block; }
-  .heart-options img {
-    width: 64px; }
-  .heart-options div {
-    opacity: 0.5;
-    display: inline-block; }
-  .heart-options div:hover {
-    transition: all .5s ease-in-out;
-    opacity: 1; }
-
 ul {
   list-style-type: initial;
   padding-left: 1.5em; }
+
+.share-options {
+  display: inline-block;
+  position: relative;
+  top: -20px;
+  margin: 2em auto; }
+  .share-options img {
+    width: 64px; }
+  .share-options div {
+    opacity: 0.5;
+    display: inline-block; }
+  .share-options div:hover {
+    transition: all .5s ease-in-out;
+    opacity: 1; }
 
 figure, figcaption {
   display: block; }
@@ -504,7 +443,6 @@ figure, figcaption {
   background: -ms-linear-gradient(top, #ede1c9, #fef8e2 20%, #f2ebde 60%);
   background: linear, top, #ede1c9, #fef8e2 20%, #f2ebde 60%;
   /*give the Polaroids a small drop shadow*/
-  -webkit-box-shadow: 4px 4px 8px -4px rgba(0, 0, 0, 0.75);
   -moz-box-shadow: 4px 4px 8px -4px rgba(0, 0, 0, 0.75);
   box-shadow: 4px 4px 8px -4px rgba(0, 0, 0, 0.75); }
 
@@ -522,7 +460,6 @@ figure, figcaption {
   -o-transform: rotate(2deg);
   -ms-transform: rotate(2deg);
   transform: rotate(2deg);
-  -webkit-box-shadow: 4px 4px 8px -4px rgba(0, 0, 0, 0.75);
   -moz-box-shadow: 4px 4px 8px -4px rgba(0, 0, 0, 0.75);
   box-shadow: -4px 4px 8px -4px rgba(0, 0, 0, 0.75); }
 
