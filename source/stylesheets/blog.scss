@@ -21,14 +21,12 @@ $desktop_client: em(1200) !default;
 
 body {
   background:transparent url('/images/table.jpg') center repeat-y;
-//  background:transparent url('http://www.psd-dude.com/tutorials/create-a-meat-sausage-photoshop-text-effect/tileable-wood-texture.jpg') center repeat-y;
-//  background:transparent url('http://www.mb3d.co.uk/mb3d/Wood_Seamless_and_Tileable_High_Res_Textures_files/Wood_01_UV_H_CM_1.jpg') center repeat-y;
   background-size: 100% auto;
-//  margin: 0;
+
   color: $base-font-color;
   font-size: 18px;
 
-  background-color: azure;
+  margin-top: 1em;
 
   @include media($tablet_or_so) {
     background-color: gray;
@@ -100,6 +98,7 @@ article.type-system-traditional {
   }
 
   img {
+    background-color: white;
     padding-top: 1em;
   }
 
@@ -380,4 +379,108 @@ article.type-system-traditional {
 ul {
   list-style-type: initial;
   padding-left: 1.5em;
+}
+
+
+
+
+
+
+
+
+
+figure, figcaption {
+  display:block;
+}
+
+.polaroid{
+  padding: 20px;
+}
+
+.polaroid figure{
+  padding: 6px 8px 10px 8px; /*size of the frame*/
+  /*give the frame's background colour a gradient*/
+  background: #eee6d8; /*fallback colour for browsers that don't support gradients*/
+  background: -webkit-linear-gradient(top, #ede1c9, #fef8e2 20%, #f2ebde 60%);
+  background: -moz-linear-gradient(top, #ede1c9, #fef8e2 20%, #f2ebde 60%);
+  background: -o-linear-gradient(top, #ede1c9, #fef8e2 20%, #f2ebde 60%);
+  background: -ms-linear-gradient(top, #ede1c9, #fef8e2 20%, #f2ebde 60%);
+  background: linear-gradient(top, #ede1c9, #fef8e2 20%, #f2ebde 60%);
+  /*give the Polaroids a small drop shadow*/
+  -webkit-box-shadow: 4px 4px 8px -4px rgba(0, 0, 0, .75);
+  -moz-box-shadow: 4px 4px 8px -4px rgba(0, 0, 0, .75);
+  box-shadow: 4px 4px 8px -4px rgba(0, 0, 0, .75);
+}
+
+.polaroid figure{
+  -webkit-transform:rotate(-1deg);
+  -moz-transform: rotate(-1deg);
+  -o-transform: rotate(-1deg);
+  -ms-transform: rotate(-1deg);
+  transform: rotate(-1deg);
+  -webkit-backface-visibility:hidden;
+}
+.polaroid figure:nth-child(even) {
+  -webkit-transform:rotate(2deg);
+  -moz-transform: rotate(2deg);
+  -o-transform: rotate(2deg);
+  -ms-transform: rotate(2deg);
+  transform: rotate(2deg);
+
+  -webkit-box-shadow: 4px 4px 8px -4px rgba(0, 0, 0, .75);
+  -moz-box-shadow: 4px 4px 8px -4px rgba(0, 0, 0, .75);
+  box-shadow: -4px 4px 8px -4px rgba(0, 0, 0, .75);
+}
+
+.polaroid figcaption{
+  text-align: center;
+  font-family: 'Reenie Beanie', italic;
+  font-size:1.3em;
+  font-style: italic;
+  color: #454f40;
+  letter-spacing: 0.09em;
+}
+
+figure:before {
+  content: '';
+  display: block;
+  position: absolute;
+  left:5px;
+  top: -15px;
+  width: 75px;
+  height: 25px;
+  background-color: rgba(222,220,198,0.7);
+
+  -webkit-transform: rotate(-12deg);
+  -moz-transform: rotate(-12deg);
+  -o-transform: rotate(-12deg);
+  -ms-transform: rotate(-12deg);
+}
+
+figure:after {
+  content: '';
+  display: block;
+  position: absolute;
+  right: -19px;
+  bottom: -12px;
+  width: 75px;
+  height: 25px;
+  background-color: rgba(222,220,198,0.7);
+
+  -webkit-transform: rotate(-12deg);
+  -moz-transform: rotate(-12deg);
+  -o-transform: rotate(-12deg);
+  -ms-transform: rotate(-12deg);
+}
+
+
+figure:nth-child(even):before {
+  left:150px;
+  top: -15px;
+  width: 55px;
+  height: 25px;
+  -webkit-transform: rotate(12deg);
+  -moz-transform: rotate(12deg);
+  -o-transform: rotate(12deg);
+  -ms-transform: rotate(12deg);
 }

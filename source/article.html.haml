@@ -11,6 +11,7 @@ layout: false
     %meta{:name => "robots", :content => "index, follow"}
     %title a distributed life: on velocityraptors by Ryan Boucher
     %link{:href => "http://fonts.googleapis.com/css?family=Radley:400,400italic", :rel => "stylesheet", :type => "text/css"}
+    %link{:href => "http://fonts.googleapis.com/css?family=Reenie+Beanie:400", :rel => "stylesheet", :type => "text/css"}
     %link{:href => "http://fonts.googleapis.com/css?family=Noto+Sans:400,700,400italic,700italic", :rel => "stylesheet", :type => "text/css"}
     %link{:href => "stylesheets/blog.css", :rel => "stylesheet", :type => "text/css"}
     = javascript_include_tag "vendor/jquery.min", "vendor/jquery.unveil.min", "do-unveil", 'keymaster.min', 'gist-embed'
@@ -42,8 +43,10 @@ layout: false
           %li Refusal to prioritise tech debt or bugs because they don’t score points.
           %li Refusing to do the right thing because it might initially impact your velocity.
           %li Everyone deserves a safe workplace, put up the no velocityraptors sign, band together, be alert but not alarmed. Stay strong.
-        %p.centered
-          %img{:src => "http://thoughtworks.github.io/p2/images/velocityraptor/no-velocityraptor.png"}
+        .polaroid
+          %figure
+            %img{:src => "http://thoughtworks.github.io/p2/images/velocityraptor/no-velocityraptor.png"}
+            %figcaption Be alert, but not alarmed
         %hr
         %p.author Written by Ryan Boucher
         %p.date
