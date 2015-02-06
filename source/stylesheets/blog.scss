@@ -20,7 +20,8 @@ $tablet_or_so: em(680) !default;
 $desktop_client: em(1200) !default;
 
 body {
-  margin: 0;
+  background:transparent url('http://www.mb3d.co.uk/mb3d/Wood_Seamless_and_Tileable_High_Res_Textures_files/Wood_01_UV_H_CM_1.jpg') left top;
+//  margin: 0;
   color: $base-font-color;
   font-size: 18px;
 
@@ -37,7 +38,7 @@ body {
 
 .content {
   background-color: white;
-
+  margin-bottom: 1em;
   padding: 0 2em;
 
   @include outer-container;

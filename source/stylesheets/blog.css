@@ -192,7 +192,7 @@ picture {
   box-sizing: border-box; }
 
 body {
-  margin: 0;
+  background: transparent url("http://www.mb3d.co.uk/mb3d/Wood_Seamless_and_Tileable_High_Res_Textures_files/Wood_01_UV_H_CM_1.jpg") left top;
   color: #333333;
   font-size: 18px;
   background-color: azure; }
@@ -205,6 +205,7 @@ body {
 
 .content {
   background-color: white;
+  margin-bottom: 1em;
   padding: 0 2em;
   max-width: 68em;
   margin-left: auto;
