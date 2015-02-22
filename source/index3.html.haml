@@ -14,38 +14,77 @@ layout: false
     = javascript_include_tag "vendor/jquery.min", "vendor/jquery.unveil.min", "do-unveil", 'keymaster.min', 'gist-embed'
     %link{:rel => "alternate", :type => 'application/atom+xml', :title => "Atom feed", :href => "#{site_url}/rss"}
   %body
+    .bio
+      %img.avatar{:src => "images/me.jpg"}
+      %h1 Ryan Boucher
+      %h2 distributedlife
+      .follow-options
+        .twitter
+          %a.nozoom{:href => "http://twitter.com/distributedlife", :target => "_blank"}
+            %img.flat{:src => "/images/twitter.png", :width => "32px", :height => "26px" }
+        .github
+          %a.nozoom{:href => "http://github.com/distributedlife", :target => "_blank"}
+            %img.flat{:src => "/images/Octocat.png", :width => "32px", :height => "32px"}
+        .facebook
+          %a.nozoom{:href => "http://facebook.com/distributedlife", :target => "_blank"}
+            %img.flat{:src => "/images/facebook2.png", :width => "32px", :height => "32px"}
+        .plus
+          %a.nozoom{:href => "https://plus.google.com/u/0/+RyanBoucher_distributedlife/about/p/pub", :target => "_blank"}
+            %img.flat{:src => "/images/googleplus.png", :width => "32px", :height => "32px"}
+        .email
+          %a{:href => "mailto:ryan.boucher@distributedlife.com"}
+            %img.flat{:src => "/images/email.png", :width => "32px", :height => "32px"}
+    .header
+      %h1 Recent Articles
     .content
-      .big-options
-        .big-option{:onclick => "location.href='/index3.html';", :style => "background-image: url(http://fc05.deviantart.net/fs51/f/2009/311/6/d/My_current_wallpaper_by_Hybrid_Tech.jpg);"}
-          %span Tech
-        .big-option.back-invert
-          %span Ryan Boucher
-        .big-option{:onclick => "location.href='/index3.html';", :style => "background-image: url(https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcS1-0VcKAKfxo2-ZiJ-Tx0hg2fiotU26efUw6XLMu0cAxL68lMx);"}
-          %span Games
-        .big-option{:onclick => "location.href='/index3.html';", :style => "background-image: url(https://farm4.staticflickr.com/3931/15386305456_f4d2c4ed14_k.jpg);"}
-          %span Notes
-        .big-option{:style => "background-image: url(images/me.jpg)"}
-          %span &nbsp;
-        .big-option.invert{:onclick => "location.href='/index3.html';", :style => "background-image: url(/images/book.jpg);"}
-          %span Dates and Times
-        .big-option{:onclick => "location.href='/index3.html';", :style => "background-image: url(http://pas-wordpress-media.s3.amazonaws.com/content/uploads/2014/04/Ideas-Make-or-Break-Your-Business.jpg)"}
-          %span Ideas
-        .big-option.invert{:onclick => "location.href='/index3.html';", :style => "background-image: url(http://legacyproject.human.cornell.edu/files/2014/03/list-for-living.2-1xswisr.jpg)"}
-          %span Lists
-        .big-option
-          .connections
-            .twitter
-              %a.nozoom{:href => "http://twitter.com/distributedlife", :target => "_blank"}
-                %img.flat{:src => "/images/twitter.png"}
-            .github
-              %a.nozoom{:href => "http://github.com/distributedlife", :target => "_blank"}
-                %img.flat{:src => "/images/Octocat.png"}
-            .facebook
-              %a.nozoom{:href => "http://facebook.com/distributedlife", :target => "_blank"}
-                %img.flat{:src => "/images/facebook2.png"}
-            .plus
-              %a.nozoom{:href => "https://plus.google.com/u/0/+RyanBoucher_distributedlife/about/p/pub", :target => "_blank"}
-                %img.flat{:src => "/images/googleplus.png"}
-            .email
-              %a{:href => "mailto:ryan.boucher@distributedlife.com"}
-                %img.flat{:src => "/images/email.png"}
+      %ul.recent-3
+        %li.recently
+          %h1 Four ways to split a story
+          .brief Approaches to reducing story complexity for iterative development.
+          .click-to-read
+            %a{:href => "TODO"} Start Reading
+        %hr
+        %li.recently
+          %h1 BDD and Legacy Systems
+          .brief Behaviour driven development, by itself, doesn’t work on legacy systems. A key ingredient is still missing and I’m going to talk about what that is.
+          .click-to-read
+            %a{:href => "TODO"} Start Reading
+        %hr
+        %li.recently
+          %h1 Pattern Fun Facts: Decorator
+          .brief In pattern fun facts we take a look a pattern and tell you something you didn’t know. This month: The decorator pattern can help you do incremental delivery.
+          .click-to-read
+            %a{:href => "TODO"} Start Reading
+    .header
+      %h1 Projects
+    .content
+      %ul.anchors
+        %li.anchor
+          %h1 What You Need to Know About Dates and Times in Computing
+          %img{:src => "/images/book.jpg"}
+          .brief This book explains what you need to know about dates and times in computing. Its sole purpose is to quickly get you up to speed on this ubiquitous and commonly misunderstood topic.
+          .click-to-read
+            %a{:href => "http://cromulent-publishing.com"} Get the book
+        %hr
+        %li.anchor
+          %h1 Notes From Other Places
+          %img{:src => "https://farm8.staticflickr.com/7001/13517460004_e6a69f2190_n.jpg"}
+          .brief Interesting stories, observations and photos from places that are not where I live.
+          .click-to-read
+            %a{:href => "/travel"} Go Explore
+        %hr
+        %li.anchor
+          %h1 inch.js
+          %img{:src => "/images/inch.png"}
+          .brief A javascript game framework that gives you the inch to go the extra mile.
+          .click-to-read
+            %a{:href => "/inch"} Build something
+        %hr
+        %li.anchor
+          %h1 Lists
+          %img{:src => "http://www.off-the-path.com/wp-content/uploads/2011/11/interhigh_bucketlist.jpg"}
+          .brief I like lists, perchance a little too much. If you like lists then you'll appreciate this.
+          .click-to-read
+            %a{:href => "/lists.html"} Enumerate
+    .header
+      %h1 About me

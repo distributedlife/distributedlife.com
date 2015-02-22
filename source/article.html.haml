@@ -1,5 +1,11 @@
 ---
 layout: false
+description: How I learnt to spot the velocityraptor and outwit it.
+section: agile
+image: http://www.distributedlife.com/images/no-velocityraptor.png
+tags:
+ - agile
+ - velocity
 ---
 !!!html
 %html
@@ -7,8 +13,26 @@ layout: false
     %meta{:charset => "utf-8"}
     %meta{:content => "IE=edge,chrome=1", 'http-equiv' => "X-UA-Compatible"}
     %meta{:name => "viewport", :content => "width=device-width", 'initial-scale' => 1}
-    %meta{:name => "description", :content => ""}
+    %meta{:name => "description", :content => current_page.data['description']}
     %meta{:name => "robots", :content => "index, follow"}
+    %meta{:property => "og:title", :content => "On Velocityraptors"}
+    %meta{:property => "og:type", :content => "article"}
+    %meta{:property => "og:url", :content => "#{site_url}#{current_page.url}"}
+    %meta{:property => "og:image", :content => current_page.data['image']}
+    %meta{:property => "og:description", :content => current_page.data['description']}
+    %meta{:property => "og:locale", :content => "en_AU"}
+    %meta{:property => "og:site_name", :content => "distributedlife"}
+    / %meta{:property => "article:published_time", :content =>  "{{post.date }}"}
+    / %meta{:property => "article:modified_time", :content =>  "{{ post.date }}"}
+    %meta{:property => "article:author", :content =>  "https://www.facebook.com/distributedlife"}
+    %meta{:property => "article:author", :content =>  "https://plus.google.com/u/1/+RyanBoucher_distributedlife"}
+    %meta{:property => "article:author", :content =>  "https://www.twitter.com/distributedlife"}
+    %meta{:property => "article:author", :content =>  "Ryan Boucher"}
+    %meta{:property => "article:section", :content =>  current_page.data['section']}
+    - current_page.data.tags.each do |tag|
+      %meta{:property => "article:tag", :content => tag}
+
+
     %title a distributed life: on velocityraptors by Ryan Boucher
     %link{:href => "http://fonts.googleapis.com/css?family=Radley:400,400italic", :rel => "stylesheet", :type => "text/css"}
     %link{:href => "http://fonts.googleapis.com/css?family=Reenie+Beanie:400", :rel => "stylesheet", :type => "text/css"}
@@ -18,6 +42,7 @@ layout: false
     %link{:rel => "alternate", :type => 'application/atom+xml', :title => "Atom feed", :href => "#{site_url}/rss"}
     %link{:rel => "canonical", :href => "#{site_url}#{current_page.url}"}
   %body
+    / = post
     .content
       .banner
         %h1
@@ -52,27 +77,20 @@ layout: false
         %p.date
           %a{:href => "http://thoughtworks.github.io/p2/issue03/velocityraptors/", :rel => "canonical"} On Velocityraptors was first published in the August edition of P2 Magazine.
       .call-to-action
-        / .share{:onclick => "javascript:toggleShare();"}
-        / %img{:src => "images/share.svg"}
+        %p Do you know someone who would enjoy this?
         .share-options
           .twitter
             %a{:href => "javascript:twitterShare('https://twitter.com/share?via=distributedlife&text=On velocityraptors&dnt=true')", :class => "twitter-share-button"}
-              %img.flat{:width=>"64px", :height => "64px", :src => "/images/twitter.png"}
+              %img.flat{:width=>"64px", :height => "52px", :src => "/images/twitter.png"}
           .google
             %a{:href => "https://plus.google.com/share?url={#{site_url}#{current_page.url}}", :onclick => "javascript:window.open(this.href, '', 'menubar=no,toolbar=no,resizable=yes,scrollbars=yes,height=600,width=600');return false;"}
-              %img{:width=>"64px", :height => "64px", :src => "https://www.gstatic.com/images/icons/gplus-64.png", :alt => "Share on Google+"}
+              %img{:width=>"64px", :height => "64px", :src => "/images/googleplus.png", :alt => "Share on Google+"}
           .facebook
             %a{:href => "javascript:fbShare('#{site_url}#{current_page.url}', 'On Velocityraptors', 'Description', '/images/no-velocityraptor.png')"}
-              %img{:width=>"64px", :height => "64px", :src => "images/facebook.png", :alt => "Share on Facebook"}
+              %img{:width=>"64px", :height => "64px", :src => "/images/facebook.png", :alt => "Share on Facebook"}
           .email
-            %a{:href => "mailto:?subject=I think you'll enjoy this post On Velocityraptors&body=I still remember the first time I was stalked by a velocityraptor. The team stood in a semicircle around the wall and we repeated our oaths: what we did today, tomorrow and were we blocked. Once again like every day this week I had something to say, I was blocked. One of the challenges I faced was dealing with integration testing. It was difficult to get the other team organised, involved or even interested. #{site_url}#{current_page.url}"}
-              %img{:width=>"64px", :height => "64px", :src => "images/email.png", :alt => "Share via Email"}
-        / .heart-options
-        / .gittip
-        / .patreon
-        / .donate
-        / #border{:onclick => "javascript:toggleHeart();"}
-        / #heart
+            %a{:href => "mailto:?subject=I think you'll enjoy this post On Velocityraptors&body=#{site_url}#{current_page.url} wI still remember the first time I was stalked by a velocityraptor. The team stood in a semicircle around the wall and we repeated our oaths: what we did today, tomorrow and were we blocked. Once again like every day this week I had something to say, I was blocked. One of the challenges I faced was dealing with integration testing. It was difficult to get the other team organised, involved or even interested."}
+              %img{:width=>"64px", :height => "64px", :src => "/images/email.png", :alt => "Share via Email"}
     :javascript
       function twitterShare(url) {
         var winTop = (screen.height / 2) - 350;
@@ -86,13 +104,7 @@ layout: false
         var winLeft = (screen.width / 2) - 520;
         window.open('http://www.facebook.com/sharer.php?s=100&p[title]=' + title + '&p[summary]=' + descr + '&p[url]=' + url + '&p[images][0]=' + image, 'sharer', 'top=' + winTop + ',left=' + winLeft + ',toolbar=0,status=0,width=' + 520 + ',height=' + 350);
       };
-      // function toggleShare() {
-      //   $(".share-options").toggle();
-      // }
-      // function toggleHeart() {
-      //   $(".heart-options").toggle();
-      // }
-      // $(".share-options").hide();
+
       //TODO: move this into it's own file articleTitleBehaviour.js
       (function() {
         var docElem = document.documentElement;

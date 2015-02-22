@@ -3,9 +3,13 @@
 @import "bourbon/bourbon";
 @import "base/base";
 @import "neat/neat";
+@import "questa-grande.css";
+@import "questa-regular.css";
 
-$sans-serif: 'Noto Sans', sans-serif;
-$serif: 'Radley', serif;
+$big-font: 'questa_granderegular', serif;
+$sans-serif: 'questaregular', sans-serif;
+$serif: 'questaregular', serif;
+$handwriting: 'Reenie Beanie', italic;
 $base-border-radius: 3px !default;
 $base-line-height: 1.5em !default;
 $base-spacing: 1.5em !default;
@@ -20,35 +24,37 @@ $tablet_or_so: em(680) !default;
 $desktop_client: em(1200) !default;
 
 body {
-  background:transparent url('/images/table.jpg') center repeat-y;
-  background-size: 100% auto;
+  background-color: white;
 
   color: $base-font-color;
   font-size: 18px;
 
   margin-top: 1em;
+  margin-left: 0;
+  margin-right: 0;
 
   @include media($tablet_or_so) {
-    background-color: gray;
-  }
-
-  @include media($desktop_client) {
-    background-color: white;
+    background:transparent url('/images/table.jpg') center repeat-y;
+    background-size: 100% auto;
   }
 }
 
 .content {
   background-color: white;
-  margin-bottom: 1em;
-  padding: 0 2em;
-
-  background:transparent url('/images/paper.png') center repeat-y;
-  background-size: 100% auto;
+  padding: 0 1em;
 
   @include outer-container;
   @include span-columns(12);
 
   @include media($tablet_or_so) {
+    background:transparent url('/images/paper.png') center repeat-y;
+    background-size: 100% auto;
+
+    padding: 0 2em;
+
+    -moz-box-shadow: 4px 0px 10px 4px rgba(0,0,0,0.31);
+    box-shadow: 4px 0px 10px 4px rgba(0,0,0,0.31);
+
     @include span-columns(8);
     @include shift(2);
   }
@@ -57,16 +63,24 @@ body {
     @include span-columns(6.5);
     @include shift(2.75);
   }
+}
 
-  -moz-box-shadow: 4px 0px 10px 4px rgba(0,0,0,0.31);
-  box-shadow: 4px 0px 10px 4px rgba(0,0,0,0.31);
+h1 {
+  font-family: $big-font;
+  font-weight: 700;
+}
+
+h2 {
+  font-family: $serif;
+  font-weight: 400;
+  line-height: 1.25em;
+  margin-bottom: .9em;
+  color: $base-accent-color;
 }
 
 .banner {
   h1 {
-    font-family: $serif;
     font-size: 2.6em;
-    font-weight: 700;
     margin: 3em 0;
 
     @include media($tablet_or_so) {
@@ -142,23 +156,8 @@ article.type-system-traditional {
     text-transform: uppercase;
   }
 
-  h1 {
-    font-family: $serif;
-    font-size: 1.9em;
-    font-weight: 700;
-    margin-bottom: 0.3em;
-
-    @include media($medium-screen) {
-      font-size: 2.6em;
-    }
-  }
-
   h2 {
-    font-family: $serif;
     font-size: 1.3em;
-    font-weight: 400;
-    line-height: 1.25em;
-    margin-bottom: .9em;
 
     @include media($medium-screen) {
       font-size: 1.5em;
@@ -191,7 +190,6 @@ article.type-system-traditional {
   p.date {
     color: transparentize($base-font-color, 0.6);
     font-family: $serif;
-    font-style: italic;
     margin-bottom: .3em;
   }
 
@@ -234,7 +232,6 @@ article.type-system-traditional {
   p.author {
     font-family: $serif;
     font-size: 1.2em;
-    font-style: italic;
     margin-bottom: 0em;
   }
 }
@@ -278,34 +275,12 @@ article.type-system-traditional {
   left: -4px;
 }
 
-ul {
+ul, ol {
   list-style-type: initial;
   padding-left: 1.5em;
+
+  font-family: $serif;
 }
-
-.share-options {
-  display: inline-block;
-  position: relative;
-  top: -20px;
-
-  img {
-    width: 64px;
-  }
-
-  div {
-    opacity: 0.5;
-    display: inline-block;
-  }
-
-  div:hover {
-    transition: all .5s ease-in-out;
-    opacity: 1;
-  }
-
-  margin: 2em auto;
-}
-
-
 
 
 
@@ -319,15 +294,15 @@ figure, figcaption {
 }
 
 .polaroid figure{
-  padding: 6px 8px 10px 8px; /*size of the frame*/
-  /*give the frame's background colour a gradient*/
-  background: #eee6d8; /*fallback colour for browsers that don't support gradients*/
+  padding: 6px 8px 10px 8px;
+
+  background: #eee6d8;
   background: -webkit-linear-gradient(top, #ede1c9, #fef8e2 20%, #f2ebde 60%);
   background: -moz-linear-gradient(top, #ede1c9, #fef8e2 20%, #f2ebde 60%);
   background: -o-linear-gradient(top, #ede1c9, #fef8e2 20%, #f2ebde 60%);
   background: -ms-linear-gradient(top, #ede1c9, #fef8e2 20%, #f2ebde 60%);
   background: linear-gradient(top, #ede1c9, #fef8e2 20%, #f2ebde 60%);
-  /*give the Polaroids a small drop shadow*/
+
   -moz-box-shadow: 4px 4px 8px -4px rgba(0, 0, 0, .75);
   box-shadow: 4px 4px 8px -4px rgba(0, 0, 0, .75);
 }
@@ -402,4 +377,207 @@ figure:nth-child(even):before {
   -moz-transform: rotate(12deg);
   -o-transform: rotate(12deg);
   -ms-transform: rotate(12deg);
+}
+
+
+
+
+
+
+ul.big-options {
+  background-color: white;
+  margin: 0 auto;
+  padding: 1em;
+
+  background:transparent url('/images/paper.png') center repeat-y;
+  background-size: 100% auto;
+
+  -moz-box-shadow: 4px 0px 10px 4px rgba(0,0,0,0.31);
+  box-shadow: 4px 0px 10px 4px rgba(0,0,0,0.31);
+
+  @include clearfix();
+}
+
+li.big-option {
+  @include span-columns(4);
+  @include omega(3n);
+
+  height: 300px;
+
+  border: 1px dotted red;
+
+  background-size: 100% 100%;
+}
+
+.back-invert {
+  font-size: 3em;
+  font-family: 'Reenie Beanie', italic;
+  font-style: italic;
+  text-align: center;
+}
+
+
+
+
+
+.movies {
+  list-style-type: none;
+  padding: 0 0 3em 0;
+}
+
+
+.me {
+  position: absolute;
+  top: 0;
+  right: -450px;
+}
+
+.landing {
+  background-color: rgb(37, 176, 203);
+}
+
+
+
+
+
+
+
+.bio {
+  padding-top: 1em;
+  padding-bottom: 1em;
+
+  text-align: center;
+
+  h1 {
+    margin-bottom: 0;
+  }
+  h2 {
+    font-size: 0.8em;
+  }
+
+  img.avatar {
+    width: 60%;
+    height: auto;
+
+    background-color: white;
+    -webkit-mask-image: url('/images/circle-img-mask.png');
+    -webkit-mask-size: 100% 100%;
+  }
+}
+
+ul.recent-3 {
+  margin: 1em 0 0 0;
+  padding: 0;
+  list-style-type: none;
+}
+
+ul.anchors {
+  margin: 1em 0 0 0;
+  padding: 0;
+  list-style-type: none;
+}
+
+li.anchor {
+  margin: 0 0 1em 0;
+
+  @include clearfix;
+
+  h1 {
+    font-size: 1.4em;
+    margin-bottom: 0;
+  }
+
+  .brief {
+    padding-top: 1em;
+    font-size: 0.9em;
+  }
+
+  img {
+    width: 40%;
+    height: auto;
+    float: left;
+    padding: 1em 1em 0 0;
+  }
+
+  .click-to-read {
+    clear: left;
+
+    display: block;
+    font-family: $sans-serif;
+    color: $base-accent-color;
+    font-size: 0.7em;
+    font-weight: 800;
+    padding: 1em 0 0.1em 0;
+    text-align: right;
+    text-transform: uppercase;
+
+    a {
+      border-bottom: 2px solid;
+    }
+  }
+}
+
+li.recently {
+  margin: 0 0 1em 0;
+
+  @include clearfix;
+
+  h1 {
+    font-size: 1.6em;
+    margin-bottom: 0;
+  }
+
+  .brief {
+    font-size: 1em;
+  }
+
+  .click-to-read {
+    border-bottom: 2px solid;
+    display: inline-block;
+    font-family: $sans-serif;
+    color: $base-accent-color;
+    font-size: 0.7em;
+    font-weight: 800;
+    padding: 1em 0 0.1em 0;
+    text-align: left;
+    text-transform: uppercase;
+  }
+}
+
+.follow-options, .share-options {
+  display: inline-block;
+  position: relative;
+  top: -20px;
+
+  img {
+    width: 32px;
+  }
+
+  div {
+    opacity: 0.5;
+    display: inline-block;
+  }
+
+  div:hover {
+    transition: all .5s ease-in-out;
+    opacity: 1;
+  }
+
+  margin: 2em auto 0 auto;
+}
+
+.header {
+  min-height: 48px;
+  margin: 0;
+  background-color: $base-accent-color;
+  color: white;
+  text-align: center;
+
+  h1 {
+    display: inline-block;
+    font-family: $sans-serif;
+    font-weight: 800;
+    padding: 1em 0 0.1em 0;
+    text-transform: uppercase;
+  }
 }
