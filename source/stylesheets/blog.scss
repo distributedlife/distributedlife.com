@@ -16,6 +16,7 @@ $base-spacing: 1.5em !default;
 $base-accent-color: #477DCA !default;
 $base-link-color: $base-accent-color !default;
 $dark-gray: #333 !default;
+$med-gray: #888 !default;
 $light-gray: #DDD !default;
 $medium-screen: em(680) !default;
 $base-font-color: #000 !default;
@@ -29,9 +30,7 @@ body {
   color: $base-font-color;
   font-size: 18px;
 
-  margin-top: 1em;
-  margin-left: 0;
-  margin-right: 0;
+  margin: 1em 0 0 0;
 
   @include media($tablet_or_so) {
     background:transparent url('/images/table.jpg') center repeat-y;
@@ -440,7 +439,10 @@ li.big-option {
 
 
 
-
+.brief {
+  padding-top: 1em;
+  font-size: 0.9em;
+}
 
 .bio {
   padding-top: 1em;
@@ -487,11 +489,6 @@ li.anchor {
     margin-bottom: 0;
   }
 
-  .brief {
-    padding-top: 1em;
-    font-size: 0.9em;
-  }
-
   img {
     width: 40%;
     height: auto;
@@ -527,10 +524,6 @@ li.recently {
     margin-bottom: 0;
   }
 
-  .brief {
-    font-size: 1em;
-  }
-
   .click-to-read {
     border-bottom: 2px solid;
     display: inline-block;
@@ -541,6 +534,7 @@ li.recently {
     padding: 1em 0 0.1em 0;
     text-align: left;
     text-transform: uppercase;
+    letter-spacing: 0.1em;
   }
 }
 
@@ -572,6 +566,7 @@ li.recently {
   background-color: $base-accent-color;
   color: white;
   text-align: center;
+  letter-spacing: 0.2em;
 
   h1 {
     display: inline-block;
@@ -579,5 +574,35 @@ li.recently {
     font-weight: 800;
     padding: 1em 0 0.1em 0;
     text-transform: uppercase;
+  }
+}
+
+.when-and-where {
+  display: inline-block;
+  color: $med-gray;
+  text-transform: uppercase;
+  font-size: 0.8em;
+}
+
+.footer {
+  margin: 0;
+  background-color: $base-accent-color;
+  color: white;
+}
+
+.follow-options {
+  .twitter {
+    position: relative;
+    top: 1px;
+  }
+
+  .github {
+    position: relative;
+    top: 4px;
+  }
+
+  .plus {
+    position: relative;
+    top: 4px;
   }
 }

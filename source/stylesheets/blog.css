@@ -197,9 +197,7 @@ body {
   background-color: white;
   color: #333333;
   font-size: 18px;
-  margin-top: 1em;
-  margin-left: 0;
-  margin-right: 0; }
+  margin: 1em 0 0 0; }
   @media screen and (min-width: 42.5em) {
     body {
       background: transparent url("/images/table.jpg") center repeat-y;
@@ -534,6 +532,10 @@ li.big-option {
 .landing {
   background-color: #25b0cb; }
 
+.brief {
+  padding-top: 1em;
+  font-size: 0.9em; }
+
 .bio {
   padding-top: 1em;
   padding-bottom: 1em;
@@ -568,9 +570,6 @@ li.anchor {
   li.anchor h1 {
     font-size: 1.4em;
     margin-bottom: 0; }
-  li.anchor .brief {
-    padding-top: 1em;
-    font-size: 0.9em; }
   li.anchor img {
     width: 40%;
     height: auto;
@@ -598,8 +597,6 @@ li.recently {
   li.recently h1 {
     font-size: 1.6em;
     margin-bottom: 0; }
-  li.recently .brief {
-    font-size: 1em; }
   li.recently .click-to-read {
     border-bottom: 2px solid;
     display: inline-block;
@@ -609,7 +606,8 @@ li.recently {
     font-weight: 800;
     padding: 1em 0 0.1em 0;
     text-align: left;
-    text-transform: uppercase; }
+    text-transform: uppercase;
+    letter-spacing: 0.1em; }
 
 .follow-options, .share-options {
   display: inline-block;
@@ -630,10 +628,32 @@ li.recently {
   margin: 0;
   background-color: #477dca;
   color: white;
-  text-align: center; }
+  text-align: center;
+  letter-spacing: 0.2em; }
   .header h1 {
     display: inline-block;
     font-family: "questaregular", sans-serif;
     font-weight: 800;
     padding: 1em 0 0.1em 0;
     text-transform: uppercase; }
+
+.when-and-where {
+  display: inline-block;
+  color: #888888;
+  text-transform: uppercase;
+  font-size: 0.8em; }
+
+.footer {
+  margin: 0;
+  background-color: #477dca;
+  color: white; }
+
+.follow-options .twitter {
+  position: relative;
+  top: 1px; }
+.follow-options .github {
+  position: relative;
+  top: 4px; }
+.follow-options .plus {
+  position: relative;
+  top: 4px; }
