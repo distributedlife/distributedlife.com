@@ -616,6 +616,15 @@ li.recently {
     text-align: left;
     text-transform: uppercase;
     letter-spacing: 0.1em; }
+  li.recently input {
+    position: relative;
+    top: 4px;
+    display: inline-block;
+    width: 45%;
+    min-height: 2em; }
+  li.recently button {
+    display: inline-block;
+    float: right; }
 
 .follow-options, .share-options {
   display: inline-block;

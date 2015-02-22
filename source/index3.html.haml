@@ -66,6 +66,8 @@ layout: false
             %a{:href => "TODO"} Start Reading
         %hr
         %li.recently
+          %input#article-search
+          %button#article-search-button Show All Articles
     .header
       %h1 Projects
     .content
@@ -89,14 +91,14 @@ layout: false
           %img{:src => "/images/inch.png"}
           .brief A javascript game framework that gives you the inch to go the extra mile.
           .click-to-read
-            %a{:href => "/inch"} Build something
+            %a{:href => "/inch"} Come Play
         %hr
         %li.anchor
           %h1 Fountainhead
           %img{:src => "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcQ9EtFXW7NT1ANuKep7ZyJSR_9xXKJt9b-wGdS_iSmX92ALVorH"}
           .brief What lies beyond this link are ideas that I've had. Some are more fleshed out than others. If you catch me on the right day I'll join forces with you and make it.
           .click-to-read
-            %a{:href => "/lists.html"} Enumerate
+            %a{:href => "/lists.html"} Start something
         %hr
         %li.anchor
           %h1 Lists
@@ -104,6 +106,20 @@ layout: false
           .brief I like lists, perchance a little too much. If you like lists then you'll appreciate this.
           .click-to-read
             %a{:href => "/lists.html"} Enumerate
+        %hr
+        %li.anchor
+          %h1 P2 Magazine
+          %img{:src => "/images/p2-magazine.png"}
+          .brief In 2013 I started and was the chief editor of the ThoughtWorks magazine that focuses on software excellence. It was an amazing journey that started with a conversation in a coffeeshop and ended with me handing the reins over to Rachel Laycock.
+          .click-to-read
+            %a{:href => "http://thoughtworks.github.io/p2/"} Be Excellent
+        %hr
+        %li.anchor
+          %h1 The Interview
+          %img{:src => "/images/the-interview.png"}
+          .brief In 2012 and 2013 I created and ran an ThoughtWorks-only interview series called The Interview but also called An Interview with a ThoughtWorker. It aimed to reduce the distance between geographically dispersed colleagues whilst allowing me to challenge how an interview is structured.
+          .click-to-read
+            %a{:href => "/projects/the-interview.html"} Enquire
     .header
       %h1 About me
     .content
@@ -113,5 +129,17 @@ layout: false
         This site is where I organise the various pieces I've written, the projects I've worked on
         and the one's that got away. I work for
         %a{:href => "http://www.thoughtworks.com"} ThoughtWorks.
+        The easiest way to get in contact with me is via
+        %a{:href => "http://twitter.com/distributedlife", :target => "_blank"}twitter.
+      %p.brief
+        The most difficult way to get in contact with me is by conspiring to fix which table number I am assigned when I sit down at a restaurant. Those table numbers map to letters of the alphabet (indirectly of course). Overtime, a message is spelt out. I will respond by briefly contorting my face into brail letters. Be ready.
     .footer
       .copyright © Ryan Boucher, 2008-2015
+  :javascript
+    $("#article-search").on('change', function() {
+        if ($( this ).text() == "") {
+          $("#article-search-button").text("Show All Articles");
+        } else {
+          $("#article-search-button").text("Search Articles");
+        }
+    });
