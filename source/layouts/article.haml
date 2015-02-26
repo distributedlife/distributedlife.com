@@ -20,8 +20,10 @@
     %meta{:property => "article:author", :content =>  "https://www.twitter.com/distributedlife"}
     %meta{:property => "article:author", :content =>  "Ryan Boucher"}
     %meta{:property => "article:section", :content =>  current_page.data['section']}
-    - data.tags.each do |tag|
-      %meta{:property => "article:tag", :content => tag}
+
+    - if data.has_key? 'tags'
+      - data.tags.each do |tag|
+        %meta{:property => "article:tag", :content => tag}
 
     %title a distributed life: on velocityraptors by Ryan Boucher
     %link{:href => "http://fonts.googleapis.com/css?family=Radley:400,400italic", :rel => "stylesheet", :type => "text/css"}
