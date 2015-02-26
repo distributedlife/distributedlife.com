@@ -82,7 +82,7 @@ page "/index.html", :layout => "/layouts/index.html.haml" do
   @projects = data.projects
 end
 
-proxy "/news", "items.html", :locals => {:news => @all_articles, :layout => "source/layouts/items.html.haml"}
+proxy "/news.html", "items.html", :locals => {:news => @all_articles, :layout => "source/layouts/items.html.haml"}
 ###
 # Helpers
 ###
