@@ -2,7 +2,7 @@
   %ul.recent-3
     - news.each_with_index do |news, index|
       %li.recently
-        %h1=news[:title]
+        %h1=news[:title].join(" ")
         .brief
           =news[:brief]
         .when-and-where

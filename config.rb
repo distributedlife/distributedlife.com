@@ -2,43 +2,30 @@
 # Blog settings
 ###
 
-# Time.zone = "Melbourne"
+Time.zone = "Melbourne"
 
-activate :blog do |blog|
-  blog.prefix = "resources"
-  blog.permalink = ":title.html"
-  # blog.sources = ":year-:month-:day-:title.html"
-  # blog.taglink = "tags/:tag.html"
-  blog.layout = "article"
-  # blog.summary_separator = /(READMORE)/
-  # blog.summary_length = 250
-  # blog.year_link = ":year.html"
-  # blog.month_link = ":year/:month.html"
-  # blog.day_link = ":year/:month/:day.html"
-  # blog.default_extension = ".markdown"
+# activate :blog do |blog|
+#   blog.prefix = "article/"
+#   blog.permalink = "{title}.html"
+#   # blog.sources = ":year-:month-:day-:title.html"
+#   # blog.taglink = "tags/:tag.html"
+#   blog.layout = "article.haml"
+#   # blog.summary_separator = /(READMORE)/
+#   # blog.summary_length = 250
+#   # blog.year_link = ":year.html"
+#   # blog.month_link = ":year/:month.html"
+#   # blog.day_link = ":year/:month/:day.html"
+#   # blog.default_extension = ".md"
 
-  # blog.tag_template = "tag.html"
-  # blog.calendar_template = "calendar.html"
+#   # blog.tag_template = "tag.html"
+#   # blog.calendar_template = "calendar.html"
 
-  # blog.paginate = true
-  # blog.per_page = 10
-  # blog.page_link = "page/:num"
-end
+#   # blog.paginate = true
+#   # blog.per_page = 10
+#   # blog.page_link = "page/:num"
+# end
 
 page "/feed.xml", :layout => false
-
-###
-# Compass
-###
-
-# Susy grids in Compass
-# First: gem install susy
-# require 'susy'
-
-# Change Compass configuration
-# compass_config do |config|
-#   config.output_style = :compact
-# end
 
 ###
 # Page options, layouts, aliases and proxies
@@ -70,11 +57,10 @@ page "/feed.xml", :layout => false
 # travel - from the travel blog
 # fountainhead - from that chunk
 tips = []
-articles = []
 travel = []
 fountainhead = []
 
-@all_articles = data.news.concat(data.elsewhere).concat(articles).concat(tips).concat(travel).concat(fountainhead)
+@all_articles = data.news.concat(data.elsewhere).concat(data.articles).concat(tips).concat(travel).concat(fountainhead)
 @all_articles.sort! {|a, b| b[:date] <=> a[:date]}
 
 page "/index.html", :layout => "/layouts/index.html.haml" do
@@ -82,13 +68,20 @@ page "/index.html", :layout => "/layouts/index.html.haml" do
   @projects = data.projects
 end
 
-proxy "/news.html", "items.html", :locals => {:news => @all_articles, :layout => "source/layouts/items.html.haml"}
+proxy "/news.html", "items.html", :locals => {:news => @all_articles, :title => "News", :layout => "source/layouts/items.html.haml"}
+proxy "/articles.html", "items.html", :locals => {:news => data.articles, :title => "Articles", :layout => "source/layouts/items.html.haml"}
+
+data.articles.each do |article|
+  content = File.read("source/articles/#{article.content}") unless article.content.nil?
+
+  proxy article.url, "article.html", :locals => {:data => article, :content => content, :layout => "source/layouts/article.html.haml"}
+end
 ###
 # Helpers
 ###
 
 # Automatic image dimensions on image_tag helper
-# activate :automatic_image_sizes
+activate :automatic_image_sizes
 
 # Methods defined in the helpers block are available in templates
 helpers do

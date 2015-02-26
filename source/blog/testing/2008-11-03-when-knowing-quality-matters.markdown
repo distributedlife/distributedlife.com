@@ -1,8 +1,0 @@
----
-title: When knowing quality matters
-date: 2008-11-03 23:55:21
-tags: f1, formula-1, mclaren, quality, testing, testing, 
----
-<p class="MsoNormal" style="text-align: justify;">I was watching the final F1 race of the season last night and the commentators told a story about the lengths team McLaren went to, to ensure they knew the quality of their car. In the 2008 season of F1 each engine has to be used for two races and each transmission, three races. Luis Hamilton's car, McLaren's chance at winning the drivers championship, was on its second race for its engine and its third race for the transmission.</p>
-<p class="MsoNormal" style="text-align: justify;">To make sure they knew they had a car that would last the distance they collected all the spare parts manufactured in the same run as the production car and rebuilt a replica. They then put the replica car on the dyno and stress tested it until it died. With that knowledge they were confident their car would go the distance. It did and Hamilton is now the Driver's Champion for 2008.</p>
-<p class="MsoNormal" style="text-align: justify;">Nobody would ever say that a team that spent an <a href="http://en.wikipedia.org/wiki/Formula_One#cite_ref-57">estimated $402 million dollars in 2007</a> would be skimping on quality. However, having quality people and process and having measured quality are two different things. It is easy to get great people and do best practices but if you don’t have a way of measuring quality you never really know until its tested in production.</p>
