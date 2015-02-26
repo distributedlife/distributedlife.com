@@ -5,5 +5,6 @@ s3cmd sync --acl-public --guess-mime-type --recursive . s3://distributedlife.com
 s3cmd modify --acl-public --guess-mime-type --recursive --add-header="Vary: Accept-Encoding" --add-header="Cache-Control:public" --add-header='Content-Encoding: gzip' s3://distributedlife.com/images/
 s3cmd modify --acl-public --guess-mime-type --recursive --add-header="Vary: Accept-Encoding" --add-header="Content-Type: utf-8" --add-header='Content-Encoding: gzip' s3://distributedlife.com/javascripts/
 s3cmd modify --acl-public --guess-mime-type --recursive --add-header="Vary: Accept-Encoding" --add-header="Content-Type: utf-8" --add-header='Content-Encoding: gzip' s3://distributedlife.com/stylesheets/
+s3cmd modify --acl-public --guess-mime-type --recursive --add-header="Content-Type: utf-8" --add-header='Content-Encoding: gzip' s3://distributedlife.com/index.html
 cd ..
 rm -rf build
