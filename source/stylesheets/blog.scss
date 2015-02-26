@@ -22,7 +22,7 @@ $medium-screen: em(680) !default;
 $base-font-color: #000 !default;
 
 $tablet_or_so: em(680) !default;
-$desktop_client: em(1200) !default;
+//$desktop_client: em(1200) !default;
 
 body {
   background-color: white;
@@ -40,38 +40,22 @@ body {
   color: $base-font-color;
   font-size: 18px;
 
-  margin: 1em 0 0 0;
+  margin: 0 0 0 0;
 
-  @include media($tablet_or_so) {
-    background:transparent url('/images/table.jpg') center repeat-y;
-    background-size: 100% auto;
-  }
+  box-sizing: content-box;
 }
 
 .content {
   background-color: white;
-  padding: 0 1em;
+  padding: 0 5%;
 
   @include outer-container;
   @include span-columns(12);
 
-  @include media($tablet_or_so) {
-    background:transparent url('/images/paper.png') center repeat-y;
-    background-size: 100% auto;
+  background:transparent url('/images/paper.png') center repeat-y;
+  background-size: 100% auto;
 
-    padding: 0 2em;
-
-    -moz-box-shadow: 4px 0px 10px 4px rgba(0,0,0,0.31);
-    box-shadow: 4px 0px 10px 4px rgba(0,0,0,0.31);
-
-    @include span-columns(8);
-    @include shift(2);
-  }
-
-  @include media($desktop_client) {
-    @include span-columns(6.5);
-    @include shift(2.75);
-  }
+  max-width: 100%;
 }
 
 h1 {
@@ -87,21 +71,22 @@ h2 {
   color: $base-accent-color;
 }
 
+
 .banner {
+  background-color: $base-accent-color;
+  color: white;
+  letter-spacing: 0.2em;
+
+  text-align: center;
+
   h1 {
-    font-size: 2.6em;
-    margin: 3em 0;
+    display: inline-block;
+    text-transform: uppercase;
+    font-size: 1.8em;
+    margin: 3em auto;
 
     @include media($tablet_or_so) {
-      font-size: 4em;
-      margin: 2em 0;
-      text-align: left;
-    }
-
-    @include media($desktop_client) {
-      font-size: 4em;
-      margin: 2em 0;
-      text-align: left;
+      font-size: 2.5em;
     }
 
     span {
@@ -112,9 +97,12 @@ h2 {
 
 article {
   max-width: 35em;
+  margin: 0 auto;
 }
 
 article.type-system-traditional {
+  margin-top: 1em;
+
   h1, h2, h3, p {
     margin: 0;
   }
@@ -126,14 +114,6 @@ article.type-system-traditional {
     height: auto;
   }
 
-  hr {
-    border-bottom: 1px solid $light-gray;
-    border-left: none;
-    border-right: none;
-    border-top: none;
-    margin: $base-spacing 0;
-  }
-
   p {
     line-height: $base-line-height;
   }
@@ -141,7 +121,11 @@ article.type-system-traditional {
   a {
     color: $base-link-color;
     text-decoration: none;
-    opacity: 0.5;
+    opacity: 0.75;
+
+    img {
+      opacity: 0.5;
+    }
   }
 
   a:hover {
@@ -157,7 +141,7 @@ article.type-system-traditional {
     display: inline-block;
     font-family: $sans-serif;
     color: $base-accent-color;
-    font-size: 1.4em;
+    font-size: 1em;
     font-weight: 800;
     margin-bottom: 2em;
     padding: .1em 0;
@@ -232,10 +216,6 @@ article.type-system-traditional {
       right: -12px;
       top: -1px;
     }
-  }
-
-  hr {
-    width: 3em;
   }
 
   p.author {
@@ -455,6 +435,7 @@ li.big-option {
 }
 
 .bio {
+  margin-top: 1em;
   padding-top: 1em;
   padding-bottom: 1em;
 
@@ -469,6 +450,7 @@ li.big-option {
 
   img.avatar {
     width: 60%;
+    max-width: 200px;
     height: auto;
 
     background-color: white;
@@ -535,13 +517,15 @@ li.recently {
   }
 
   .click-to-read {
+    float: right;
+
     border-bottom: 2px solid;
-    display: inline-block;
+    display: block;
     font-family: $sans-serif;
     color: $base-accent-color;
     font-size: 0.7em;
     font-weight: 800;
-    padding: 1em 0 0.1em 0;
+    padding: 2em 0 0.1em 0;
     text-align: left;
     text-transform: uppercase;
     letter-spacing: 0.1em;
@@ -583,6 +567,12 @@ li.recently {
   margin: 2em auto 0 auto;
 }
 
+.share-options {
+  img {
+    width: 64px;
+  }
+}
+
 .header {
   min-height: 48px;
   margin: 0;
@@ -615,6 +605,8 @@ li.recently {
 }
 
 .follow-options {
+  font-size: 15px;
+
   .twitter {
     position: relative;
     top: 1px;
@@ -629,9 +621,36 @@ li.recently {
     position: relative;
     top: 4px;
   }
+
+  .steam {
+    position: relative;
+    top: 4px;
+  }
+
+  .goodfilms {
+    position: relative;
+    top: 4px;
+  }
+
+  .untappd {
+    position: relative;
+    top: 4px;
+  }
+
+  .flickr {
+    position: relative;
+    top: 4px;
+  }
+
+  .goodreads {
+    position: relative;
+    top: 4px;
+  }
 }
 
 .copyright {
-  margin-top: 16px;
+  box-sizing: content-box;
+//  -webkit-box-sizing: content-box;
   font-size: 0.6em;
+  text-transform: uppercase;
 }

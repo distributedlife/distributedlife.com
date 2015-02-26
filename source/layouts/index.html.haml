@@ -1,0 +1,118 @@
+!!!html
+%html
+  %head
+    %meta{:charset => "utf-8"}
+    %meta{:content => "IE=edge,chrome=1", 'http-equiv' => "X-UA-Compatible"}
+    %meta{:name => "viewport", :content => "width=device-width", 'initial-scale' => 1}
+    %meta{:name => "description", :content => ""}
+    %meta{:name => "robots", :content => "index, follow"}
+    %title= "a distributed life: by Ryan Boucher"
+    = stylesheet_link_tag "blog"
+    = javascript_include_tag "vendor/jquery.min", "vendor/jquery.unveil.min", "do-unveil", 'keymaster.min', 'gist-embed'
+    %link{:rel => "alternate", :type => 'application/atom+xml', :title => "Atom feed", :href => "#{site_url}/rss"}
+  %body
+    .bio
+      %img.avatar{:src => "images/me.jpg"}
+      %h1 Ryan Boucher
+      %h2 distributedlife
+      .follow-options
+        .twitter
+          %a.nozoom{:href => "http://twitter.com/distributedlife", :target => "_blank"}
+            %img.flat{:src => "/images/twitter.png", :width => "32px", :height => "26px" }
+        .github
+          %a.nozoom{:href => "http://github.com/distributedlife", :target => "_blank"}
+            %img.flat{:src => "/images/Octocat.png", :width => "32px", :height => "32px"}
+        .facebook
+          %a.nozoom{:href => "http://facebook.com/distributedlife", :target => "_blank"}
+            %img.flat{:src => "/images/facebook2.png", :width => "32px", :height => "32px"}
+        .plus
+          %a.nozoom{:href => "https://plus.google.com/u/0/+RyanBoucher_distributedlife/about/p/pub", :target => "_blank"}
+            %img.flat{:src => "/images/googleplus.png", :width => "32px", :height => "32px"}
+        .email
+          %a{:href => "mailto:ryan.boucher@distributedlife.com"}
+            %img.flat{:src => "/images/email.png", :width => "32px", :height => "32px"}
+    .header
+      %h1 Recent Articles
+    .content
+      %ul.recent-3
+        - @recently.each do |article|
+          %li.recently
+            %h1=article[:title]
+            .brief
+              =article[:brief]
+            .when-and-where
+              ="#{article[:where]}, #{Date.parse(article[:date]).strftime('%B %Y')}"
+            - if article.has_key? :url
+              .click-to-read
+                %a{:href => article[:url]}= article[:action].nil? ? "Start Reading" : article[:action]
+          %hr
+        %li.recently
+          %input#article-search
+          %button#article-search-button Show All Articles
+    .header
+      %h1 Projects
+    .content
+      %ul.anchors
+        - @projects.each_with_index do |project, index|
+          %li.anchor
+            %h1= project[:name]
+            %img{:src => project[:image]}
+            .brief= project[:brief]
+            .click-to-read
+              %a{:href => project[:url]}= project[:action]
+          - if (index + 1) < @projects.length
+            %hr
+    .header
+      %h1 About me
+    .content
+      %p.brief
+        %span Hi my name is Ryan Boucher. I'm very good at starting things. Over time I have learnt to finish things. It's an endless game of tetris; one in which you can never fail as long as you keep on having fun. I enjoy making things; immensely.
+      %p.brief
+        This site is where I organise the various pieces I've written, the projects I've worked on
+        and the one's that got away. I work for
+        %a{:href => "http://www.thoughtworks.com"} ThoughtWorks.
+        The easiest way to get in contact with me is via
+        %a{:href => "http://twitter.com/distributedlife", :target => "_blank"}twitter.
+      %p.brief
+        The most difficult way to get in contact with me is by conspiring to fix which table number I am assigned when I sit down at a restaurant. Those table numbers map to letters of the alphabet (indirectly of course). Overtime, a message is spelt out. I will respond by briefly contorting my face into brail letters. Be ready.
+      .follow-options
+        .twitter
+          %a.nozoom{:href => "http://twitter.com/distributedlife", :target => "_blank"}
+            %img.flat{:src => "/images/twitter.png", :width => "32px", :height => "26px" }
+        .github
+          %a.nozoom{:href => "http://github.com/distributedlife", :target => "_blank"}
+            %img.flat{:src => "/images/Octocat.png", :width => "32px", :height => "32px"}
+        .facebook
+          %a.nozoom{:href => "http://facebook.com/distributedlife", :target => "_blank"}
+            %img.flat{:src => "/images/facebook2.png", :width => "32px", :height => "32px"}
+        .plus
+          %a.nozoom{:href => "https://plus.google.com/u/0/+RyanBoucher_distributedlife/about/p/pub", :target => "_blank"}
+            %img.flat{:src => "/images/googleplus.png", :width => "32px", :height => "32px"}
+        .email
+          %a{:href => "mailto:ryan.boucher@distributedlife.com"}
+            %img.flat{:src => "/images/email.png", :width => "32px", :height => "32px"}
+        .steam
+          %a{:href => "http://steamcommunity.com/id/distributedlife/"}
+            %img.flat{:src => "/images/steam.jpg", :width => "32px", :height => "32px"}
+        .goodfilms
+          %a{:href => "https://goodfil.ms/distributedlife"}
+            %img.flat{:src => "http://webstir.org/icons/good-films-icon.png", :width => "32px", :height => "32px"}
+        .untappd
+          %a{:href => "https://untappd.com/user/distributedlife"}
+            %img.flat{:src => "https://pbs.twimg.com/profile_images/461409373709811712/rD3OvWzE.jpeg", :width => "32px", :height => "32px"}
+        .goodreads
+          %a{:href => "goodreads.com/ryanboucher"}
+            %img.flat{:src => "http://men.dentonbible.org/content/themes/dbc-men/images/icon-goodreads.png", :width => "32px", :height => "32px"}
+        .flickr
+          %a{:href => "https://www.flickr.com/photos/distributedlife/"}
+            %img.flat{:src => "/images/flickr.png", :width => "32px", :height => "32px"}
+    .header
+      .copyright © Ryan Boucher, 2008-2015
+  :javascript
+    $("#article-search").on('change', function() {
+        if ($( this ).text() == "") {
+          $("#article-search-button").text("Show All Articles");
+        } else {
+          $("#article-search-button").text("Search Articles");
+        }
+    });

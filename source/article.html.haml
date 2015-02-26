@@ -3,6 +3,8 @@ layout: false
 description: How I learnt to spot the velocityraptor and outwit it.
 section: agile
 image: http://www.distributedlife.com/images/no-velocityraptor.png
+title: ["On", "Velocityraptors"]
+/ title: ["On Velocityraptors"]
 tags:
  - agile
  - velocity
@@ -42,16 +44,12 @@ tags:
     %link{:rel => "alternate", :type => 'application/atom+xml', :title => "Atom feed", :href => "#{site_url}/rss"}
     %link{:rel => "canonical", :href => "#{site_url}#{current_page.url}"}
   %body
-    / = post
+    .banner
+      %h1
+        - current_page.data['title'].each do |word|
+          %span= word
     .content
-      .banner
-        %h1
-          %span On
-          %span Velocityraptors
       %article.type-system-traditional
-        %p.type
-          %a{:href => "/writing/bestiary"}
-            found in the bestiary
         %p I still remember the first time I was stalked by a velocityraptor. The team stood in a semicircle around the wall and we repeated our oaths: what we did today, tomorrow and were we blocked. Once again like every day this week I had something to say, I was blocked. One of the challenges I faced was dealing with integration testing. It was difficult to get the other team organised, involved or even interested.
         %p I felt the pressure to score points. It had been slowly building and with the iteration having only a few days left to go. My eight-point card –it was an eight because we knew integration would be time consuming– had been on the wall or almost 2 weeks now and didn’t look like moving. The velocityraptor –our development lead doubling as the iteration manager– could smell meat and made the call that we should track the integration effort as a separate card. The new card was worth zero points: no points scored when completed. I was new to Agile at this point, but I wasn’t new to gaming –I had been a game developer before. The eight points were scored. The velocityraptor had fed. It would be two months before the zero-point card made it to the done column and it required a lot more than zero-effort to complete.
         .asterism
@@ -73,11 +71,12 @@ tags:
             %img{:src => "/images/no-velocityraptor.png"}
             %figcaption Be alert, but not alarmed
         %hr
-        %p.author Written by Ryan Boucher
-        %p.date
+        %p
           %a{:href => "http://thoughtworks.github.io/p2/issue03/velocityraptors/", :rel => "canonical"} On Velocityraptors was first published in the August edition of P2 Magazine.
+    .header
+      %h1 share these words
+    .content
       .call-to-action
-        %p Do you know someone who would enjoy this?
         .share-options
           .twitter
             %a{:href => "javascript:twitterShare('https://twitter.com/share?via=distributedlife&text=On velocityraptors&dnt=true')", :class => "twitter-share-button"}
@@ -89,8 +88,18 @@ tags:
             %a{:href => "javascript:fbShare('#{site_url}#{current_page.url}', 'On Velocityraptors', 'Description', '/images/no-velocityraptor.png')"}
               %img{:width=>"64px", :height => "64px", :src => "/images/facebook.png", :alt => "Share on Facebook"}
           .email
-            %a{:href => "mailto:?subject=I think you'll enjoy this post On Velocityraptors&body=#{site_url}#{current_page.url} wI still remember the first time I was stalked by a velocityraptor. The team stood in a semicircle around the wall and we repeated our oaths: what we did today, tomorrow and were we blocked. Once again like every day this week I had something to say, I was blocked. One of the challenges I faced was dealing with integration testing. It was difficult to get the other team organised, involved or even interested."}
+            %a{:href => "mailto:?subject=I think you'll enjoy this post On Velocityraptors&body=#{site_url}#{current_page.url} I still remember the first time I was stalked by a velocityraptor. The team stood in a semicircle around the wall and we repeated our oaths: what we did today, tomorrow and were we blocked. Once again like every day this week I had something to say, I was blocked. One of the challenges I faced was dealing with integration testing. It was difficult to get the other team organised, involved or even interested."}
               %img{:width=>"64px", :height => "64px", :src => "/images/email.png", :alt => "Share via Email"}
+    .header
+      %h1 by
+    .content
+      .bio
+        %img.avatar{:src => "images/me.jpg"}
+        %h1 Ryan Boucher
+        %h2
+          %a.nozoom{:href => "http://twitter.com/distributedlife", :target => "_blank"} @distributedlife
+    .header
+      .copyright © Ryan Boucher, 2008-2015
     :javascript
       function twitterShare(url) {
         var winTop = (screen.height / 2) - 350;
@@ -104,37 +113,3 @@ tags:
         var winLeft = (screen.width / 2) - 520;
         window.open('http://www.facebook.com/sharer.php?s=100&p[title]=' + title + '&p[summary]=' + descr + '&p[url]=' + url + '&p[images][0]=' + image, 'sharer', 'top=' + winTop + ',left=' + winLeft + ',toolbar=0,status=0,width=' + 520 + ',height=' + 350);
       };
-
-      //TODO: move this into it's own file articleTitleBehaviour.js
-      (function() {
-        var docElem = document.documentElement;
-        var didScroll = false;
-
-        function init() {
-          window.addEventListener( 'scroll', function( event ) {
-              if( !didScroll ) {
-                  didScroll = true;
-                  setTimeout( scrollPage, 50 );
-              }
-          }, false );
-        }
-
-        function scrollPage() {
-          var sy = scrollY();
-          if ( sy >= 75 ) {
-            $(".header").addClass('slide-out-h1');
-            $(".inline-header").fadeIn(100);
-          } else {
-            $(".header").removeClass('slide-out-h1');
-            $(".inline-header").fadeOut(0);
-          }
-
-          didScroll = false;
-        }
-
-        function scrollY() {
-          return window.pageYOffset || docElem.scrollTop;
-        }
-
-        init();
-      })();
