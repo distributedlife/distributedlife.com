@@ -1,16 +1,15 @@
-# If you have OpenSSL installed, we recommend updating
-# the following line to use "https"
-source 'http://rubygems.org'
+source 'https://rubygems.org'
 
-gem "middleman", "~> 3.1.6"
-gem "middleman-blog", "~> 3.3.0"
+gem "middleman"
+gem "middleman-blog"
 
 # For feed.xml.builder
 gem "builder", "~> 3.0"
 gem 'bitters'
 gem 'bourbon'
 gem 'neat'
+gem 'middleman-smusher'
 
 group :development do
-  gem 'middleman-livereload'
+  gem "middleman-livereload", :github => "middleman/middleman-livereload"
 end

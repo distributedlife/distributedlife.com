@@ -1,0 +1,18 @@
+.content
+  %ul.recent-3
+    - news.each_with_index do |news, index|
+      %li.recently
+        %h1=news[:title]
+        .brief
+          =news[:brief]
+        .when-and-where
+          ="#{news[:where]}, #{Date.parse(news[:date]).strftime('%B %Y')}"
+        - if news.has_key? 'url'
+          .click-to-read
+            %a{:href => news[:url]}= news[:action].nil? ? "Start Reading" : news[:action]
+      - if (index + 1) <= news.length
+        %hr
+    - if show_link_to_all
+      %li.recently
+        .all-article-button
+          %a.button{:href => "/news"} All News

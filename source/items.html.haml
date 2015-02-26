@@ -13,10 +13,7 @@
   %body
     = partial "/templates/bio"
     .header
-      %h1 Recent Articles
-    = partial "/templates/news", :locals => {:news => @recently, :show_link_to_all => true}
-    .header
-      %h1 Projects
-    = partial "/templates/projects", :locals => {:projects => @projects}
+      %h1 NEWS
+    = partial "/templates/news", :locals => {:news => news, :show_link_to_all => false}
     = partial "/templates/about"
     = partial "/templates/footer"

@@ -4,7 +4,6 @@ description: How I learnt to spot the velocityraptor and outwit it.
 section: agile
 image: http://www.distributedlife.com/images/no-velocityraptor.png
 title: ["On", "Velocityraptors"]
-/ title: ["On Velocityraptors"]
 tags:
  - agile
  - velocity
@@ -94,12 +93,12 @@ tags:
       %h1 by
     .content
       .bio
-        %img.avatar{:src => "images/me.jpg"}
+        %a{:href => "/"}
+          %img.avatar{:src => "images/me.jpg"}
         %h1 Ryan Boucher
         %h2
-          %a.nozoom{:href => "http://twitter.com/distributedlife", :target => "_blank"} @distributedlife
-    .header
-      .copyright © Ryan Boucher, 2008-2015
+          %a{:href => "http://twitter.com/distributedlife", :target => "_blank"} @distributedlife
+    = partial "/templates/footer"
     :javascript
       function twitterShare(url) {
         var winTop = (screen.height / 2) - 350;

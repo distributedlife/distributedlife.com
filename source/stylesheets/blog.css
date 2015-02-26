@@ -228,28 +228,6 @@ body {
   .content:last-child {
     margin-right: 0; }
 
-.about {
-  background-color: white;
-  padding: 0 5%;
-  max-width: 68em;
-  margin-left: auto;
-  margin-right: auto;
-  float: left;
-  display: block;
-  margin-right: 2.35765%;
-  width: 100%;
-  background: transparent url("/images/paper.png") center repeat-y;
-  background-size: 100% auto;
-  max-width: 680px;
-  margin: 0 auto;
-  clear: both; }
-  .about:after {
-    content: "";
-    display: table;
-    clear: both; }
-  .about:last-child {
-    margin-right: 0; }
-
 h1 {
   font-family: "questa_granderegular", serif;
   font-weight: 700; }
@@ -409,6 +387,28 @@ ul, ol {
   padding-left: 1.5em;
   font-family: "questaregular", serif; }
 
+.all-article-button {
+  float: right; }
+
+a.button {
+  display: inline-block;
+  margin: 0;
+  width: 11em;
+  border-radius: 6px;
+  background-color: #477dca;
+  color: white;
+  text-align: center;
+  font-weight: bold;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  padding: 1em;
+  opacity: 0.75; }
+
+a.button:hover {
+  transition: all 0.5s ease-in-out;
+  -webkit-transition: all 0.5s ease-in-out;
+  opacity: 1; }
+
 figure, figcaption {
   display: block; }
 
@@ -535,6 +535,10 @@ li.big-option {
 .landing {
   background-color: #25b0cb; }
 
+.about {
+  max-width: 680px;
+  margin: 0 auto; }
+
 .brief {
   padding-top: 1em;
   font-size: 0.9em; }
@@ -578,8 +582,9 @@ li.anchor {
     font-size: 1.4em;
     margin-bottom: 0; }
   li.anchor img {
-    width: 40%;
-    height: auto;
+    width: auto;
+    max-width: 200px;
+    max-height: 300px;
     float: left;
     padding: 1em 1em 0 0; }
   li.anchor .click-to-read {
@@ -587,7 +592,7 @@ li.anchor {
     display: block;
     font-family: "questaregular", sans-serif;
     color: #477dca;
-    font-size: 0.7em;
+    font-size: 0.8em;
     font-weight: 800;
     padding: 1em 0 0.1em 0;
     text-align: right;
@@ -610,7 +615,7 @@ li.recently {
     display: block;
     font-family: "questaregular", sans-serif;
     color: #477dca;
-    font-size: 0.7em;
+    font-size: 0.8em;
     font-weight: 800;
     padding: 2em 0 0.1em 0;
     text-align: left;
@@ -639,6 +644,10 @@ li.recently {
   .follow-options div:hover, .share-options div:hover {
     transition: all .5s ease-in-out;
     opacity: 1; }
+
+.follow-options {
+  width: 100%;
+  text-align: center; }
 
 .share-options img {
   width: 64px; }

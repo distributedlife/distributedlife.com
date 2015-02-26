@@ -1,0 +1,11 @@
+.content
+  %ul.anchors
+    - projects.each_with_index do |project, index|
+      %li.anchor
+        %h1= project[:name]
+        %img{:src => project[:image]}
+        .brief= project[:brief]
+        .click-to-read
+          %a{:href => project[:url]}= project[:action]
+      - if (index + 1) < projects.length
+        %hr

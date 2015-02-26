@@ -1,0 +1,16 @@
+[
+  {
+    "title": "New blog layout",
+    "brief": "I've redesigned this place to look better on mobile, tablet or desktop. I have also restructured it to make it easier to find out what I'm working on or to find the articles worth reading.",
+    "where": "news",
+    "date": "2015/03/01"
+  },
+  {
+    "title": "Traceroute gem now fails the build",
+    "brief": "I've made a fork of the traceroute gem. The change will optionally fail the build when it detects unused routes and inaccessible actions.",
+    "where": "Github",
+    "date": "2015/02/18",
+    "url": "https://github.com/amatsuda/traceroute",
+    "action": "Take a look"
+  }
+]

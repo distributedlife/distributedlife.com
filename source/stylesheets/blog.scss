@@ -22,7 +22,7 @@ $medium-screen: em(680) !default;
 $base-font-color: #000 !default;
 
 $tablet_or_so: em(680) !default;
-//$desktop_client: em(1200) !default;
+$max_content_width: 680px;
 
 body {
   background-color: white;
@@ -56,21 +56,6 @@ body {
   background-size: 100% auto;
 
   max-width: 100%;
-}
-
-.about {
-  background-color: white;
-  padding: 0 5%;
-
-  @include outer-container;
-  @include span-columns(12);
-
-  background:transparent url('/images/paper.png') center repeat-y;
-  background-size: 100% auto;
-
-  max-width: 680px;
-  margin: 0 auto;
-  clear: both;
 }
 
 h1 {
@@ -286,7 +271,31 @@ ul, ol {
   font-family: $serif;
 }
 
+.all-article-button {
+  float: right;
+}
 
+a.button {
+  display: inline-block;
+  margin: 0;
+  width: 11em;
+  border-radius: 6px;
+  background-color: $base-accent-color;
+  color: white;
+  text-align: center;
+  font-weight: bold;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  padding: 1em;
+
+  opacity: 0.75;
+}
+
+a.button:hover {
+  transition: all 0.5s ease-in-out;
+  -webkit-transition: all 0.5s ease-in-out;
+  opacity: 1;
+}
 
 
 figure, figcaption {
@@ -440,8 +449,10 @@ li.big-option {
   background-color: rgb(37, 176, 203);
 }
 
-
-
+.about {
+  max-width: $max_content_width;
+  margin: 0 auto;
+}
 
 
 .brief {
@@ -478,14 +489,14 @@ ul.recent-3 {
   margin: 1em auto 0 auto;
   padding: 0;
   list-style-type: none;
-  max-width: 680px;
+  max-width: $max_content_width;
 }
 
 ul.anchors {
   margin: 1em auto 0 auto;
   padding: 0;
   list-style-type: none;
-  max-width: 680px
+  max-width: $max_content_width
 }
 
 li.anchor {
@@ -499,8 +510,9 @@ li.anchor {
   }
 
   img {
-    width: 40%;
-    height: auto;
+    width: auto;
+    max-width: 200px;
+    max-height: 300px;
     float: left;
     padding: 1em 1em 0 0;
   }
@@ -511,7 +523,7 @@ li.anchor {
     display: block;
     font-family: $sans-serif;
     color: $base-accent-color;
-    font-size: 0.7em;
+    font-size: 0.8em;
     font-weight: 800;
     padding: 1em 0 0.1em 0;
     text-align: right;
@@ -540,7 +552,7 @@ li.recently {
     display: block;
     font-family: $sans-serif;
     color: $base-accent-color;
-    font-size: 0.7em;
+    font-size: 0.8em;
     font-weight: 800;
     padding: 2em 0 0.1em 0;
     text-align: left;
@@ -582,6 +594,11 @@ li.recently {
   }
 
   margin: 2em auto 0 auto;
+}
+
+.follow-options {
+  width: 100%;
+  text-align: center;
 }
 
 .share-options {
