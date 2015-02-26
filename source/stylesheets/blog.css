@@ -228,6 +228,28 @@ body {
   .content:last-child {
     margin-right: 0; }
 
+.about {
+  background-color: white;
+  padding: 0 5%;
+  max-width: 68em;
+  margin-left: auto;
+  margin-right: auto;
+  float: left;
+  display: block;
+  margin-right: 2.35765%;
+  width: 100%;
+  background: transparent url("/images/paper.png") center repeat-y;
+  background-size: 100% auto;
+  max-width: 680px;
+  margin: 0 auto;
+  clear: both; }
+  .about:after {
+    content: "";
+    display: table;
+    clear: both; }
+  .about:last-child {
+    margin-right: 0; }
+
 h1 {
   font-family: "questa_granderegular", serif;
   font-weight: 700; }
@@ -535,14 +557,16 @@ li.big-option {
     -webkit-mask-size: 100% 100%; }
 
 ul.recent-3 {
-  margin: 1em 0 0 0;
+  margin: 1em auto 0 auto;
   padding: 0;
-  list-style-type: none; }
+  list-style-type: none;
+  max-width: 680px; }
 
 ul.anchors {
-  margin: 1em 0 0 0;
+  margin: 1em auto 0 auto;
   padding: 0;
-  list-style-type: none; }
+  list-style-type: none;
+  max-width: 680px; }
 
 li.anchor {
   margin: 0 0 1em 0; }

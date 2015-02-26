@@ -58,6 +58,21 @@ body {
   max-width: 100%;
 }
 
+.about {
+  background-color: white;
+  padding: 0 5%;
+
+  @include outer-container;
+  @include span-columns(12);
+
+  background:transparent url('/images/paper.png') center repeat-y;
+  background-size: 100% auto;
+
+  max-width: 680px;
+  margin: 0 auto;
+  clear: both;
+}
+
 h1 {
   font-family: $big-font;
   font-weight: 700;
@@ -460,15 +475,17 @@ li.big-option {
 }
 
 ul.recent-3 {
-  margin: 1em 0 0 0;
+  margin: 1em auto 0 auto;
   padding: 0;
   list-style-type: none;
+  max-width: 680px;
 }
 
 ul.anchors {
-  margin: 1em 0 0 0;
+  margin: 1em auto 0 auto;
   padding: 0;
   list-style-type: none;
+  max-width: 680px
 }
 
 li.anchor {
