@@ -72,10 +72,19 @@ proxy "/news.html", "items.html", :locals => {:news => @all_articles, :title => 
 proxy "/articles.html", "items.html", :locals => {:news => data.articles, :title => "Articles", :layout => "source/layouts/items.html.haml"}
 
 data.articles.each do |article|
-  content = File.read("source/articles/#{article.content}") unless article.content.nil?
+  content = File.read("data/articles/#{article.content}") unless article.content.nil?
 
   proxy article.url, "article.html", :locals => {:data => article, :content => content, :layout => "source/layouts/article.html.haml"}
 end
+
+data.projects.each do |project|
+  next unless project.has_key? 'content'
+
+  content = File.read("data/projects/#{project.content}") unless project.content.nil?
+
+  proxy project.url, "article.html", :locals => {:data => project, :content => content, :layout => "source/layouts/article.html.haml"}
+end
+
 ###
 # Helpers
 ###

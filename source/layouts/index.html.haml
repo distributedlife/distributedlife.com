@@ -1,16 +1,15 @@
 !!!html
 %html
   %head
-    = partial "/templates/meta"
+    = partial "/templates/meta", {:locals => {:title => "a distributed life: by Ryan Boucher"}}
     %meta{:name => "description", :content => ""}
-    %title= "a distributed life: by Ryan Boucher"
   %body
     = partial "/templates/bio"
     .header
-      %h1 Recent Articles
+      %h1 Recent News
     = partial "/templates/news", :locals => {:news => @recently, :show_link_to_all => true}
     .header
-      %h1 Projects
+      %h1 My Projects
     = partial "/templates/projects", :locals => {:projects => @projects}
     = partial "/templates/about"
     = partial "/templates/footer"

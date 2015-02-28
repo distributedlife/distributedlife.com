@@ -1,51 +1,54 @@
 [
   {
-    "name": "What You Need to Know About Dates and Times in Computing",
+    "title": ["What You Need to Know About Dates and Times in Computing"],
     "brief": "Struck with a burning desire to reduce the incidents of date and time related mishaps that occur, I and two friends set out to distill the essence of calendars, timezones and daylight saving.",
     "image": "/images/book.jpg",
     "url": "http://cromulent-publishing.com",
     "action": "Get the book"
   },
   {
-    "name": "Notes From Other Places",
+    "title": ["Notes From Other Places"],
     "brief": "Fortunate enough to leave my own country I try to share what I witness and understand using naught but images and words. Notes from other places contains interesting stories, observations and photos from places that are not where I live.",
     "image": "https://farm8.staticflickr.com/7001/13517460004_e6a69f2190_n.jpg",
     "url": "http://distributedlife.com/travel",
     "action": "Go Explore"
   },
   // {
-    // "name": "inch.js",
+    // "title": "inch.js",
     // "brief": "A javascript game framework that gives you the inch to go the extra mile.",
     // "image": "/images/inch.png",
     // "url": "/inch",
     // "action": "Come Play"
   // },
   // {
-    // "name": "Fountainhead",
+    // "title": "Fountainhead",
     // "brief": "What lies beyond this link are ideas that I've had. Some are more fleshed out than others. If you catch me on the right day I'll join forces with you and make it.",
     // "image": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcQ9EtFXW7NT1ANuKep7ZyJSR_9xXKJt9b-wGdS_iSmX92ALVorH",
     // "url": "/fountainhead",
     // "action": "Start something"
   // },
   // {
-    // "name": "Lists",
+    // "title": "Lists",
     // "brief": "I like lists, perchance a little too much. If you like lists then you'll appreciate this.",
     // "image": "http://www.off-the-path.com/wp-content/uploads/2011/11/interhigh_bucketlist.jpg",
     // "url": "/lists",
     // "action": "Enumerate"
   // },
   {
-    "name": "P2 Magazine",
+    "title": ["P2 Magazine"],
     "brief": "In 2013 I started and was the chief editor of the ThoughtWorks magazine that focuses on software excellence. It was an amazing journey that started with a conversation in a coffeeshop and ended with me handing the reins over to Rachel Laycock.",
     "image": "/images/p2-magazine.png",
     "url": "http://thoughtworks.github.io/p2/",
     "action": "Be Excellent"
+  },
+  {
+    "title": ["The Interview"],
+    "lede": "A project",
+    "brief": "In 2012 and 2013 I created and ran an ThoughtWorks-only interview series called The Interview but also called An Interview with a ThoughtWorker. It aimed to reduce the distance between geographically dispersed colleagues whilst allowing me to challenge how an interview is structured.",
+    "image": "/images/the-interview.png",
+    "banner": "/images/the-interview-banner.jpeg",
+    "url": "/the-interview.html",
+    "action": "Enquire",
+    "content": "the-interview.md"
   }
-  // {
-  //   "name": "The Interview",
-  //   "brief": "In 2012 and 2013 I created and ran an ThoughtWorks-only interview series called The Interview but also called An Interview with a ThoughtWorker. It aimed to reduce the distance between geographically dispersed colleagues whilst allowing me to challenge how an interview is structured.",
-  //   "image": "/images/the-interview.png",
-  //   "url": "/the-interview",
-  //   "action": "Enquire"
-  // }
 ]

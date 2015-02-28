@@ -2,7 +2,7 @@
   %ul.anchors
     - projects.each_with_index do |project, index|
       %li.anchor
-        %h1= project[:name]
+        %h1= project[:title].join(" ")
         %img{:src => project[:image]}
         .brief= project[:brief]
         .click-to-read
