@@ -1,15 +1,13 @@
 !!!html
 %html
   %head
-    = partial "/templates/meta", {:locals => {:title => data['title'].join(" ")}}
+    = partial "/templates/meta", {:locals => {:title => data['title'].join(" "), :date => data['date']}}
     %meta{:property => "og:type", :content => "article"}
     %meta{:property => "og:url", :content => "#{site_url}#{current_page.url}"}
     %meta{:property => "og:image", :content => "#{site_url}#{data['image']}"}
     %meta{:property => "og:description", :content => data['description']}
     %meta{:name => "description", :content => data['description']}
-    %meta{:property => "article:published_time", :content => data['date']}
-    %meta{:property => "article:modified_time", :content => data['date']}
-    %meta{:property => "article:section", :content =>  current_page.data['section']}
+    %meta{:property => "article:section", :content =>  data['section']}
 
     - if data.has_key? 'tags'
       - data.tags.each do |tag|

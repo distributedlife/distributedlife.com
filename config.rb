@@ -73,7 +73,6 @@ page "/index.html", :layout => "/layouts/index.html.haml" do
   @projects = data.projects
 end
 
-# proxy "/rss", "feed.xml.builder", :locals => {:articles => @all_articles, :layout => "source/feed.xml.builder"}
 proxy "/news.html", "items.html", :locals => {:news => @all_articles, :title => "News", :layout => "source/layouts/items.html.haml"}
 proxy "/articles.html", "items.html", :locals => {:news => data.articles, :title => "Articles", :layout => "source/layouts/items.html.haml"}
 

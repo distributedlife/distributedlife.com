@@ -1,7 +1,7 @@
 !!!html
 %html
   %head
-    = partial "/templates/meta", {:locals => {:title => "a distributed life: by Ryan Boucher"}}
+    = partial "/templates/meta", {:locals => {:title => "a distributed life: by Ryan Boucher", :date => Date.today}}
     %meta{:name => "og:image", :content => "/images/me.jpg"}
     %meta{:name => "description", :content => ""}
   %body
