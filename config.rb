@@ -60,7 +60,12 @@ tips = []
 travel = []
 fountainhead = []
 
+def create_key article
+  article['title'].join('-').gsub(' ', '-').downcase
+end
+
 @all_articles = data.news.concat(data.elsewhere).concat(data.articles).concat(tips).concat(travel).concat(fountainhead)
+@all_articles.map! { |article| article['id'] = create_key(article); article}
 @all_articles.sort! {|a, b| b[:date] <=> a[:date]}
 
 page "/index.html", :layout => "/layouts/index.html.haml" do
@@ -68,6 +73,7 @@ page "/index.html", :layout => "/layouts/index.html.haml" do
   @projects = data.projects
 end
 
+# proxy "/rss", "feed.xml.builder", :locals => {:articles => @all_articles, :layout => "source/feed.xml.builder"}
 proxy "/news.html", "items.html", :locals => {:news => @all_articles, :title => "News", :layout => "source/layouts/items.html.haml"}
 proxy "/articles.html", "items.html", :locals => {:news => data.articles, :title => "Articles", :layout => "source/layouts/items.html.haml"}
 

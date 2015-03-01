@@ -10,7 +10,7 @@
     "brief": "I've made a fork of the traceroute gem. The change will optionally fail the build when it detects unused routes and inaccessible actions.",
     "where": "Github",
     "date": "2015/02/18",
-    "url": "https://github.com/amatsuda/traceroute",
-    "action": "Take a look"
+    "action": "Take a look",
+    "url": "https://github.com/amatsuda/traceroute"
   }
 ]
