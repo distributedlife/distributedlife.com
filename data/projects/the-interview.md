@@ -22,4 +22,13 @@ I can however make one interview public so you can get a feel for the project. M
 
 ***
 
+<script type="text/javascript">
+  function resizeIframe(obj) {
+    obj.style.height = obj.contentWindow.document.body.scrollHeight + 'px';
+  }
+</script>
 <iframe src="/static/the-interview.html" frameborder="0" scrolling="no" onload='javascript:resizeIframe(this);'></iframe>
+
+***
+
+The photes in the banner were taken by the following people: Adam Scott, Akshay Dhavle, Anshul Mengi, Craig Wattrus, David Pattinson, Fabio Pereira, Frederic Lemay, Gabriel Notari, Graham Brooks, Jess Kirwan, Kevin Yeung, Korny Sietsma, Mike Gardiner, Neil Craven, Ranjan Sakalley, Ray Grasso, Ryan Boucher, Shakir Shakiel, Tom Sulston, Yashodan Kanni
