@@ -15,10 +15,6 @@
       - data.tags.each do |tag|
         %meta{:property => "article:tag", :content => tag}
 
-    %link{:href => "http://fonts.googleapis.com/css?family=Radley:400,400italic", :rel => "stylesheet", :type => "text/css"}
-    %link{:href => "http://fonts.googleapis.com/css?family=Reenie+Beanie:400", :rel => "stylesheet", :type => "text/css"}
-    %link{:href => "http://fonts.googleapis.com/css?family=Noto+Sans:400,700,400italic,700italic", :rel => "stylesheet", :type => "text/css"}
-
     - if data.has_key? 'canonical'
       %link{:rel => "canonical", :href => data['canonical']}
     - else
