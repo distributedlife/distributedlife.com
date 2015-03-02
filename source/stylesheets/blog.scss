@@ -285,6 +285,12 @@ article.type-system-traditional {
   left: -4px;
 }
 
+.linkedin {
+  position: relative;
+  top: 2px;
+  left: -2px;
+}
+
 ul, ol {
   list-style-type: initial;
   padding-left: 1.5em;
@@ -660,7 +666,7 @@ li.recently {
 }
 
 .follow-options {
-  font-size: 15px;
+  font-size: 14px;
 
   .twitter {
     position: relative;
@@ -675,6 +681,11 @@ li.recently {
   .plus {
     position: relative;
     top: 4px;
+  }
+
+  .linkedin {
+    position: relative;
+    top: 2px;
   }
 
   .steam {
