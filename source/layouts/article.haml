@@ -18,6 +18,9 @@
     - else
       %link{:rel => "canonical", :href => "#{site_url}#{current_page.url}"}
   %body
+    .iconic
+      %a{:href => "/"}
+        %img.avatar{:src => "/images/me.jpg"}
     .banner
       - if data.has_key? 'banner'
         %img{:src => data['banner']}

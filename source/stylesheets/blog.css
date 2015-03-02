@@ -736,3 +736,20 @@ li.recently {
 iframe {
   width: 100%;
   height: 100%; }
+
+.iconic {
+  position: fixed;
+  top: 8px;
+  left: 8px;
+  opacity: 0.5; }
+  .iconic img.avatar {
+    width: 60%;
+    max-width: 64px;
+    height: auto;
+    background-color: white;
+    -webkit-mask-image: url("/images/circle-img-mask.png");
+    -webkit-mask-size: 100% 100%; }
+
+.iconic:hover {
+  transition: all .5s ease-in-out;
+  opacity: 1; }
