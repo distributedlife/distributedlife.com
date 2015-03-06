@@ -25,8 +25,8 @@ xml.feed "xmlns" => "http://www.w3.org/2005/Atom" do
       xml.updated article['date'].to_time.iso8601
       # xml.updated File.mtime(article.source_file).iso8601
       xml.author { xml.name "Ryan Boucher" }
-      xml.summary article['brief'], "type" => "plain"
-      # xml.content article['brief'], "type" => "plain"
+      xml.summary article['brief'], "type" => "text"
+      # xml.content article['brief'], "type" => "text"
     end
   end
 end
