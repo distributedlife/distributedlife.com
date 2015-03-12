@@ -36,7 +36,7 @@ button {
 
 fieldset {
   background-color: #f7f7f7;
-  border: 1px solid #dddddd;
+  border: 1px solid #ddd;
   margin: 0 0 0.75em;
   padding: 1.5em; }
 
@@ -58,8 +58,8 @@ label {
 input[type="email"], input[type="number"], input[type="password"], input[type="search"], input[type="tel"], input[type="text"], input[type="url"], input[type="color"], input[type="date"], input[type="datetime"], input[type="datetime-local"], input[type="month"], input[type="time"], input[type="week"],
 select[multiple=multiple],
 textarea {
-  background-color: white;
-  border: 1px solid #dddddd;
+  background-color: #fff;
+  border: 1px solid #ddd;
   border-radius: 3px;
   box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.06);
   box-sizing: border-box;
@@ -134,7 +134,7 @@ th {
   text-align: left; }
 
 td {
-  border-bottom: 1px solid #dddddd;
+  border-bottom: 1px solid #ddd;
   padding: 0.75em 0; }
 
 tr,
@@ -148,7 +148,7 @@ body {
   -ms-font-feature-settings: "kern", "liga", "pnum";
   font-feature-settings: "kern", "liga", "pnum";
   -webkit-font-smoothing: antialiased;
-  color: #333333;
+  color: #333;
   font-family: "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif;
   font-size: 1em;
   line-height: 1.5; }
@@ -177,7 +177,7 @@ a {
     outline: none; }
 
 hr {
-  border-bottom: 1px solid #dddddd;
+  border-bottom: 1px solid #ddd;
   border-left: none;
   border-right: none;
   border-top: none;
@@ -202,8 +202,8 @@ body {
   background: -o-linear-gradient(left, rgba(255, 255, 255, 0) 0%, #dddddd 100%);
   background: -ms-linear-gradient(left, rgba(255, 255, 255, 0) 0%, #dddddd 100%);
   background: linear, to right, rgba(255, 255, 255, 0) 0%, #dddddd 100%;
-  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#00ffffff', endColorstr='#dddddd',GradientType=1 );
-  color: #333333;
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00ffffff', endColorstr='#dddddd',GradientType=1 );
+  color: #333;
   font-size: 18px;
   margin: 0 0 0 0;
   box-sizing: content-box; }
@@ -237,7 +237,7 @@ h2 {
   font-weight: 400;
   line-height: 1.25em;
   margin-bottom: .9em;
-  color: #477dca; }
+  color: #477DCA; }
 
 .banner {
   color: white;
@@ -254,7 +254,7 @@ h2 {
     top: 0;
     left: 0;
     z-index: -1;
-    background-color: #477dca;
+    background-color: #477DCA;
     width: 100%;
     height: 100%; }
   .banner h1 {
@@ -287,7 +287,7 @@ article.type-system-traditional {
   article.type-system-traditional p {
     line-height: 1.5; }
   article.type-system-traditional a {
-    color: #477dca;
+    color: #477DCA;
     text-decoration: none;
     opacity: 0.75; }
     article.type-system-traditional a img {
@@ -303,7 +303,7 @@ article.type-system-traditional {
     border-bottom: 2px solid;
     display: inline-block;
     font-family: "questaregular", sans-serif;
-    color: #477dca;
+    color: #477DCA;
     font-size: 1em;
     font-weight: 800;
     margin-bottom: 2em;
@@ -415,7 +415,7 @@ a.button {
   margin: 0;
   width: 11em;
   border-radius: 6px;
-  background-color: #477dca;
+  background-color: #477DCA;
   color: white;
   text-align: center;
   font-weight: bold;
@@ -611,7 +611,7 @@ li.anchor {
     clear: left;
     display: block;
     font-family: "questaregular", sans-serif;
-    color: #477dca;
+    color: #477DCA;
     font-size: 0.8em;
     font-weight: 800;
     padding: 1em 0 0.1em 0;
@@ -634,7 +634,7 @@ li.recently {
     border-bottom: 2px solid;
     display: block;
     font-family: "questaregular", sans-serif;
-    color: #477dca;
+    color: #477DCA;
     font-size: 0.8em;
     font-weight: 800;
     padding: 2em 0 0.1em 0;
@@ -675,7 +675,7 @@ li.recently {
 .header {
   min-height: 48px;
   margin: 0;
-  background-color: #477dca;
+  background-color: #477DCA;
   color: white;
   text-align: center;
   letter-spacing: 0.2em; }
@@ -688,13 +688,13 @@ li.recently {
 
 .when-and-where {
   display: inline-block;
-  color: #888888;
+  color: #888;
   text-transform: uppercase;
   font-size: 0.8em; }
 
 .footer {
   margin: 0;
-  background-color: #477dca;
+  background-color: #477DCA;
   color: white;
   min-height: 32px; }
 
@@ -753,3 +753,8 @@ iframe {
 .iconic:hover {
   transition: all .5s ease-in-out;
   opacity: 1; }
+
+.line-numbers {
+  width: 3em !important; }
+
+/*# sourceMappingURL=blog.css.map */

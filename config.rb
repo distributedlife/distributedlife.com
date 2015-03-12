@@ -51,12 +51,21 @@ page "/feed.xml", :layout => false
 
 
 
-# news - bits of news that are not articles: I did this
-# articles - discrete articles
-# tips - how to do things that are not articles.
+# news - bits of news that are not articles and link elsewhere
+# articles - discrete articles that are hosted on this site
+# elsewhere - articles that are hosted elsewhere
+# TIL - how to do things that are not articles.
 # travel - from the travel blog
 # fountainhead - from that chunk
-tips = []
+def past_and_present items
+  items.select {|i| Time.zone.parse(i['date']) < Time.zone.today}
+end
+
+news = data.news
+articles = data.articles
+elsewhere = data.elsewhere
+til = data.til
+projects = data.projects
 travel = []
 fountainhead = []
 
@@ -64,7 +73,8 @@ def create_key article
   article['title'].join('-').gsub(' ', '-').downcase
 end
 
-@all_articles = data.news.concat(data.elsewhere).concat(data.articles).concat(tips).concat(travel).concat(fountainhead)
+@all_articles = news.concat(elsewhere).concat(articles).concat(til).concat(travel).concat(fountainhead)
+@all_articles = past_and_present(@all_articles)
 @all_articles.map! { |article| article['id'] = create_key(article); article}
 @all_articles.sort! {|a, b| b[:date] <=> a[:date]}
 
@@ -76,18 +86,26 @@ end
 proxy "/news.html", "items.html", :locals => {:news => @all_articles, :title => "News", :layout => "source/layouts/items.html.haml"}
 proxy "/articles.html", "items.html", :locals => {:news => data.articles, :title => "Articles", :layout => "source/layouts/items.html.haml"}
 
-data.articles.each do |article|
+articles.each do |article|
   content = File.read("data/articles/#{article.content}") unless article.content.nil?
 
   proxy article.url, "article.html", :locals => {:data => article, :content => content, :layout => "source/layouts/article.html.haml"}
 end
 
-data.projects.each do |project|
+projects.each do |project|
   next unless project.has_key? 'content'
 
   content = File.read("data/projects/#{project.content}") unless project.content.nil?
 
   proxy project.url, "article.html", :locals => {:data => project, :content => content, :layout => "source/layouts/article.html.haml"}
+end
+
+til.each do |til|
+  next unless til.has_key? 'content'
+
+  content = File.read("data/til/#{til.content}") unless til.content.nil?
+
+  proxy til.url, "article.html", :locals => {:data => til, :content => content, :layout => "source/layouts/article.html.haml"}
 end
 
 ###
@@ -103,6 +121,10 @@ helpers do
     "http://distributedlife.com"
   end
 end
+
+# set :markdown_engine, :kramdown
+set :markdown_engine, :redcarpet
+set :markdown, :fenced_code_blocks => true, :smartypants => true
 
 set :css_dir, 'stylesheets'
 
@@ -134,6 +156,8 @@ configure :build do
 
   # Or use a different image path
   # set :http_path, "/Content/images/"
+  # activate :syntax, :line_numbers => true
+  activate :rouge_syntax, :line_numbers => true
 end
 
 configure :development do

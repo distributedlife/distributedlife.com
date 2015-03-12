@@ -1,0 +1,11 @@
+[
+  {
+    "title": ["Testing", "keyboard, mouse and touch", "input with JavaScript"],
+    "brief": "Using jsdom to simulate keyboard, mouse and touch event.",
+    "where": "til",
+    "date": "2015/03/13",
+    "url": "/til/testing-input-javascript.html",
+    "content": "testing-input-javascript.md",
+    "tags": ["jsdom", "mocha", "test", "javascript", "keyboard", "touch", "mouse"]
+  }
+]

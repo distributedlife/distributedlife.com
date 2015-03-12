@@ -2,6 +2,10 @@ source 'https://rubygems.org'
 
 gem "middleman"
 gem "middleman-blog"
+gem "middleman-syntax"
+gem "kramdown"
+gem 'middleman-rouge'
+gem "redcarpet"
 
 # For feed.xml.builder
 gem "builder", "~> 3.0"
