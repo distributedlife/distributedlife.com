@@ -248,7 +248,8 @@ h2 {
     top: 0;
     left: 0;
     z-index: -1;
-    background: linear, false, rgba(0, 0, 0, 0.7), 0.7; }
+    background: linear, false, rgba(0, 0, 0, 0.7), 0.7;
+    width: 100%; }
   .banner .solid {
     position: fixed;
     top: 0;
