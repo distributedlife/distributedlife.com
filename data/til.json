@@ -7,16 +7,5 @@
     "url": "/til/testing-input-javascript.html",
     "content": "testing-input-javascript.md",
     "tags": ["jsdom", "mocha", "test", "javascript", "keyboard", "touch", "mouse"]
-  },
-  {
-    "title": ["Crossing the steams", "with", "Floobits"],
-    "brief": "When remote pairing with floobits be careful not to cross the streams.",
-    "where": "til",
-    "date": "2015/03/14",
-    "image": "/images/spewing-the-floobits.jpg",
-    "banner": "/images/spewing-the-floobits.jpg",
-    "url": "/til/floobits-crossing-the-stream.html",
-    "content": "floobits-crossing-the-stream.md",
-    "tags": ["floobits", "remote", "distributed", "pairing"]
   }
 ]
