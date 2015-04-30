@@ -1,0 +1,45 @@
+.banner {
+  color: white;
+  letter-spacing: 0.2em;
+
+  text-align: center;
+
+  img {
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: -1;
+    background: linear-gradient(rgba(0, 0, 0, 0.7), 0.7);
+
+    width: 100%;
+  }
+
+  .solid {
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: -1;
+    background-color: $base-accent-color;
+    width: 100%;
+    height: 100%;
+  }
+
+  h1 {
+    display: inline-block;
+    text-transform: uppercase;
+    font-size: 1.8em;
+    margin: 3em auto;
+
+    @include media($tablet_or_so) {
+      font-size: 2.5em;
+    }
+
+    span {
+      display: block;
+    }
+  }
+
+  .lede {
+    font-size: 0.5em;
+  }
+}

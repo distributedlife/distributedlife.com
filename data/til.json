@@ -7,5 +7,14 @@
     "url": "/til/testing-input-javascript.html",
     "content": "testing-input-javascript.md",
     "tags": ["jsdom", "mocha", "test", "javascript", "keyboard", "touch", "mouse"]
+  },
+  {
+    "title": ["Content", "Security", "Policy"],
+    "brief": "Why it's a good idea to start with CSP and not finish with it.",
+    "where": "til",
+    "date": "2015/04/14",
+    "url": "/til/content-security-policy-a-retrofit.html",
+    "content": "content-security-policy-a-retrofit.md",
+    "tags": ["ruby", "csp", "content security policy", "rails"]
   }
 ]

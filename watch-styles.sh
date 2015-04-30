@@ -1,1 +1,1 @@
-bundle exec sass --watch source/stylesheet⇡/blog.scss
+bundle exec sass --watch source/stylesheets/blog.scss
