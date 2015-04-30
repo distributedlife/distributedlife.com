@@ -10,7 +10,7 @@ On a ruby project it's trivial. Use Twitter's [secureheaders](https://github.com
 
 # realisation sets in
 
-The moment you turn on CSP you'll realise which libraries you depend on don't behave in a CSP-friendly way. They're doing unconscionable things like injecting `script` tags into your source.
+The moment you turn on CSP you'll realise the libraries you depend on don't behave in a CSP-friendly way. They're doing unconscionable things like injecting `script` tags into your source.
 
 It's distressing to add a stack of tech debt to your wall within the first two weeks. We had to work through these in time continuing to deliver while cleaning up after ourselves.
 
