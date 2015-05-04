@@ -4,27 +4,27 @@
     "brief": "Approaches to reducing story complexity for iterative development.",
     "where": "P2 Magazine",
     "date": "2013/11/01",
-    "url": "http://thoughtworks.github.io/p2/issue6/four-ways-to-split-a-story/"
+    "url": "http://thoughtworks.github.io/p2/issue06/four-ways-to-split-a-story/"
   },
   {
     "title": ["BDD and Legacy Systems"],
     "brief": "Behaviour driven development, by itself, doesn’t work on legacy systems. A key ingredient is still missing and I’m going to talk about what that is.",
     "where": "P2 Magazine",
     "date": "2013/10/01",
-    "url": "http://thoughtworks.github.io/p2/issue5/bdd-on-legacy/"
+    "url": "http://thoughtworks.github.io/p2/issue05/bdd-on-legacy/"
   },
   {
     "title": ["Pattern Fun Facts: Decorator"],
     "brief": "In pattern fun facts we take a look a pattern and tell you something you didn’t know. This month: The decorator pattern can help you do incremental delivery.",
     "where": "P2 Magazine",
     "date": "2013/10/01",
-    "url": "http://thoughtworks.github.io/p2/issue5/pattern-fun-fact-decorator/"
+    "url": "http://thoughtworks.github.io/p2/issue05/pattern-fun-fact-decorator/"
   },
   {
     "title": ["I can tell you, but then you'd understand"],
     "brief": "On anonymous functions, code readability and design erosion.",
     "where": "P2 Magazine",
     "date": "2013/10/01",
-    "url": "http://thoughtworks.github.io/p2/issue5/anonymous-functions/"
+    "url": "http://thoughtworks.github.io/p2/issue05/anonymous-functions/"
   }
 ]

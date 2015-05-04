@@ -4,4 +4,40 @@ A friend showed me how to do it better. Create a `KeyboardEvent` or, if you so w
 
 I am using jsdom to create a simple DOM.
 
-<script src='https://gist.github.com/distributedlife/a9b4e344a45e2ab3afe7.js'></script>
+~~~javascript
+var expect = require('expect');
+var jsdom = require('jsdom').jsdom;
+
+describe('Atom', function() {
+  var document;
+
+  beforeEach(function() {
+    document = jsdom(undefined, {});
+  });
+
+  describe('when type a single key', function() {
+    var atom = {
+      input: {
+        _pressed: {},
+        onkeydown: function(e) {
+          this._pressed[e.KeyCode] = true;
+        },
+        pressed: function(action) { return this._pressed[action]; }
+      }
+    };
+
+    beforeEach(function() {
+      document.onkeydown = atom.input.onkeydown.bind(atom.input);
+
+      var event = new document.createEvent('KeyboardEvent');
+      event.initEvent('keydown', true, true);
+      event.keyCode = 37;
+      document.dispatchEvent(event);
+    });
+
+    it('should register the key pressed', function() {
+      expect(atom.input.pressed(37)).toBe(true);
+    });
+  });
+});
+~~~

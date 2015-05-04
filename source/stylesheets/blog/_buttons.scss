@@ -1,0 +1,25 @@
+.all-article-button {
+  float: right;
+}
+
+a.button {
+  display: inline-block;
+  margin: 0;
+  width: 11em;
+  border-radius: 6px;
+  background-color: $base-accent-color;
+  color: white;
+  text-align: center;
+  font-weight: bold;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  padding: 1em;
+
+  opacity: 0.75;
+}
+
+a.button:hover {
+  transition: all 0.5s ease-in-out;
+  -webkit-transition: all 0.5s ease-in-out;
+  opacity: 1;
+}
