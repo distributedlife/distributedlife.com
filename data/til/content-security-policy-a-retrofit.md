@@ -17,6 +17,17 @@ It's distressing to add a stack of tech debt to your wall within the first two w
 The lesson learnt is: **start every project with CSP as a baseline**.
 
 # for reference
+
+Useful links:
+
+- [A NodeJS endpoint for capturing reports](https://www.npmjs.com/package/csp-endpoint)
+- [CSP Playground with detail on what's allowed and what is not.](http://www.cspplayground.com/compliant_examples)
+- [CSP support in Angular](https://docs.angularjs.org/api/ng/directive/ngCsp)
+- [How chrome handles it](https://developer.chrome.com/extensions/contentSecurityPolicy)
+- [Twitter's CSP experience report](https://blog.twitter.com/2011/improving-browser-security-csp)
+- [Twitter's Secure Headers gem](https://github.com/twitter/secureheaders)
+- [Twitters CSP report capturing behaviour](https://blog.matatall.com/2014/07/twitters-csp-report-collector-design/)
+
 This is our configuration:
 
 ~~~ruby

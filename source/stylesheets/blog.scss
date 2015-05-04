@@ -29,7 +29,7 @@ $max_content_width: 680px;
 @import "blog/typography";
 @import "blog/banner";
 @import "blog/images";
-
+@import "blog/lists";
 
 
 .call-to-action {
@@ -99,31 +99,6 @@ a.button:hover {
 
 
 
-ul.big-options {
-  background-color: white;
-  margin: 0 auto;
-  padding: 1em;
-
-  background:transparent url('/images/paper.png') center repeat-y;
-  background-size: 100% auto;
-
-  -moz-box-shadow: 4px 0px 10px 4px rgba(0,0,0,0.31);
-  box-shadow: 4px 0px 10px 4px rgba(0,0,0,0.31);
-
-  @include clearfix();
-}
-
-li.big-option {
-  @include span-columns(4);
-  @include omega(3n);
-
-  height: 300px;
-
-  border: 1px dotted red;
-
-  background-size: 100% 100%;
-}
-
 .back-invert {
   font-size: 3em;
   font-family: 'Reenie Beanie', italic;
@@ -184,95 +159,6 @@ li.big-option {
     background-color: white;
     -webkit-mask-image: url('/images/circle-img-mask.png');
     -webkit-mask-size: 100% 100%;
-  }
-}
-
-ul.recent-3 {
-  margin: 1em auto 0 auto;
-  padding: 0;
-  list-style-type: none;
-  max-width: $max_content_width;
-}
-
-ul.anchors {
-  margin: 1em auto 0 auto;
-  padding: 0;
-  list-style-type: none;
-  max-width: $max_content_width
-}
-
-li.anchor {
-  margin: 0 0 1em 0;
-
-  @include clearfix;
-
-  h1 {
-    font-size: 1.4em;
-    margin-bottom: 0;
-  }
-
-  img {
-    float: left;
-    width: auto;
-    max-width: 200px;
-    max-height: 300px;
-    padding: 1em 1em 0 0;
-  }
-
-  .click-to-read {
-    clear: left;
-
-    display: block;
-    font-family: $sans-serif;
-    color: $base-accent-color;
-    font-size: 0.8em;
-    font-weight: 800;
-    padding: 1em 0 0.1em 0;
-    text-align: right;
-    text-transform: uppercase;
-
-    a {
-      border-bottom: 2px solid;
-    }
-  }
-}
-
-li.recently {
-  margin: 0 0 1em 0;
-
-  @include clearfix;
-
-  h1 {
-    font-size: 1.6em;
-    margin-bottom: 0;
-  }
-
-  .click-to-read {
-    float: right;
-
-    border-bottom: 2px solid;
-    display: block;
-    font-family: $sans-serif;
-    color: $base-accent-color;
-    font-size: 0.8em;
-    font-weight: 800;
-    padding: 2em 0 0.1em 0;
-    text-align: left;
-    text-transform: uppercase;
-    letter-spacing: 0.1em;
-  }
-
-  input {
-    position: relative;
-    top: 4px;
-    display: inline-block;
-    width: 45%;
-    min-height: 2em;
-  }
-
-  button {
-    display: inline-block;
-    float: right;
   }
 }
 

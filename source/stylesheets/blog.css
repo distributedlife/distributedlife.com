@@ -108,7 +108,7 @@ select {
 ul,
 ol {
   list-style-type: none;
-  margin: 0;
+  margin: 0 0 1.5em;
   padding: 0; }
 dl {
   margin-bottom: 0.75em; }
@@ -477,126 +477,6 @@ figure:nth-child(even):before {
   -o-transform: rotate(12deg);
   -ms-transform: rotate(12deg); }
 
-.call-to-action {
-  text-align: center;
-  margin: 2em auto; }
-
-.twitter {
-  position: relative;
-  top: -1px;
-  left: 1px; }
-
-.google {
-  position: relative;
-  top: 4px; }
-
-.facebook {
-  position: relative;
-  top: 4px; }
-
-.email {
-  position: relative;
-  top: 4px;
-  left: -4px; }
-
-.linkedin {
-  position: relative;
-  top: 2px;
-  left: -2px; }
-
-.all-article-button {
-  float: right; }
-
-a.button {
-  display: inline-block;
-  margin: 0;
-  width: 11em;
-  border-radius: 6px;
-  background-color: #477DCA;
-  color: white;
-  text-align: center;
-  font-weight: bold;
-  letter-spacing: 1px;
-  text-transform: uppercase;
-  padding: 1em;
-  opacity: 0.75; }
-
-a.button:hover {
-  transition: all 0.5s ease-in-out;
-  -webkit-transition: all 0.5s ease-in-out;
-  opacity: 1; }
-
-ul.big-options {
-  background-color: white;
-  margin: 0 auto;
-  padding: 1em;
-  background: transparent url("/images/paper.png") center repeat-y;
-  background-size: 100% auto;
-  -moz-box-shadow: 4px 0px 10px 4px rgba(0, 0, 0, 0.31);
-  box-shadow: 4px 0px 10px 4px rgba(0, 0, 0, 0.31); }
-  ul.big-options:after {
-    content: "";
-    display: table;
-    clear: both; }
-
-li.big-option {
-  float: left;
-  display: block;
-  margin-right: 2.35765%;
-  width: 31.76157%;
-  height: 300px;
-  border: 1px dotted red;
-  background-size: 100% 100%; }
-  li.big-option:last-child {
-    margin-right: 0; }
-  li.big-option:nth-child(3n) {
-    margin-right: 0; }
-  li.big-option:nth-child(3n+1) {
-    clear: left; }
-
-.back-invert {
-  font-size: 3em;
-  font-family: 'Reenie Beanie', italic;
-  font-style: italic;
-  text-align: center; }
-
-.movies {
-  list-style-type: none;
-  padding: 0 0 3em 0; }
-
-.me {
-  position: absolute;
-  top: 0;
-  right: -450px; }
-
-.landing {
-  background-color: #25b0cb; }
-
-.about {
-  max-width: 680px;
-  margin: 0 auto; }
-
-.brief {
-  padding-top: 1em;
-  font-size: 0.9em; }
-
-.bio {
-  margin-top: 1em;
-  padding-top: 1em;
-  padding-bottom: 1em;
-  text-align: center; }
-  .bio h1 {
-    margin-bottom: 0; }
-  .bio h2 {
-    font-size: 0.8em; }
-  .bio img.avatar {
-    width: 60%;
-    max-width: 200px;
-    height: auto;
-    background-color: white;
-    -webkit-mask-image: url("/images/circle-img-mask.png");
-    -webkit-mask-size: 100% 100%; }
-
 ul.recent-3 {
   margin: 1em auto 0 auto;
   padding: 0;
@@ -667,6 +547,126 @@ li.recently {
   li.recently button {
     display: inline-block;
     float: right; }
+
+ul.big-options {
+  background-color: white;
+  margin: 0 auto;
+  padding: 1em;
+  background: transparent url("/images/paper.png") center repeat-y;
+  background-size: 100% auto;
+  -moz-box-shadow: 4px 0px 10px 4px rgba(0, 0, 0, 0.31);
+  box-shadow: 4px 0px 10px 4px rgba(0, 0, 0, 0.31); }
+  ul.big-options:after {
+    content: "";
+    display: table;
+    clear: both; }
+
+li.big-option {
+  float: left;
+  display: block;
+  margin-right: 2.35765%;
+  width: 31.76157%;
+  height: 300px;
+  border: 1px dotted red;
+  background-size: 100% 100%; }
+  li.big-option:last-child {
+    margin-right: 0; }
+  li.big-option:nth-child(3n) {
+    margin-right: 0; }
+  li.big-option:nth-child(3n+1) {
+    clear: left; }
+
+.call-to-action {
+  text-align: center;
+  margin: 2em auto; }
+
+.twitter {
+  position: relative;
+  top: -1px;
+  left: 1px; }
+
+.google {
+  position: relative;
+  top: 4px; }
+
+.facebook {
+  position: relative;
+  top: 4px; }
+
+.email {
+  position: relative;
+  top: 4px;
+  left: -4px; }
+
+.linkedin {
+  position: relative;
+  top: 2px;
+  left: -2px; }
+
+.all-article-button {
+  float: right; }
+
+a.button {
+  display: inline-block;
+  margin: 0;
+  width: 11em;
+  border-radius: 6px;
+  background-color: #477DCA;
+  color: white;
+  text-align: center;
+  font-weight: bold;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  padding: 1em;
+  opacity: 0.75; }
+
+a.button:hover {
+  transition: all 0.5s ease-in-out;
+  -webkit-transition: all 0.5s ease-in-out;
+  opacity: 1; }
+
+.back-invert {
+  font-size: 3em;
+  font-family: 'Reenie Beanie', italic;
+  font-style: italic;
+  text-align: center; }
+
+.movies {
+  list-style-type: none;
+  padding: 0 0 3em 0; }
+
+.me {
+  position: absolute;
+  top: 0;
+  right: -450px; }
+
+.landing {
+  background-color: #25b0cb; }
+
+.about {
+  max-width: 680px;
+  margin: 0 auto; }
+
+.brief {
+  padding-top: 1em;
+  font-size: 0.9em; }
+
+.bio {
+  margin-top: 1em;
+  padding-top: 1em;
+  padding-bottom: 1em;
+  text-align: center; }
+  .bio h1 {
+    margin-bottom: 0; }
+  .bio h2 {
+    font-size: 0.8em; }
+  .bio img.avatar {
+    width: 60%;
+    max-width: 200px;
+    height: auto;
+    background-color: white;
+    -webkit-mask-image: url("/images/circle-img-mask.png");
+    -webkit-mask-size: 100% 100%; }
 
 .follow-options, .share-options {
   display: inline-block;
