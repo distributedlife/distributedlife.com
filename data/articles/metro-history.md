@@ -5,7 +5,7 @@ This tries to visualise the world history of all countries as lines on a metro m
   |    |
 --o    |	(country end at event i.e. Ottoman Empire)
 --o----|---
-  o----o--- (country starts from event i.e. Australia)
+  o----o--- (country starts from event i.e. Turkey)
   |    |
 --o    o--- (country with the same name restarted i.e. Poland)
 
@@ -13,9 +13,9 @@ Each 'o' is an event that involves all countries that stop at that station. Each
 
 Or,
 
-Each 'o' indicates that the country had some notible event that year. The colour can be used to indicate the type of event and a number can be used to link multiple countries in the event.
+Each 'o' indicates that the country had some notible event that year. The colour indicates the event type and a number can link each country in the event.
 
-The timeline can be zoomed out to see decade and century level changes or zoomed for subyear events
+Zoom out the timeline to see decade and century level changes or zoom in for sub-year events
 
 
 
@@ -24,5 +24,5 @@ The timeline can be zoomed out to see decade and century level changes or zoomed
 
 - Start with country commencement and conclusion dates.
 - Expand to conflicts
-- Expand to notable events (laws being passed)
+- Expand to notable events (laws passed)
 - Expand to notible people

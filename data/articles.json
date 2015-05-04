@@ -1,13 +1,2 @@
 [
-  {
-    "title": ["On", "Velocityraptors"],
-    "brief": "Approaches to reducing story complexity for iterative development.",
-    "where": "P2 Magazine",
-    "date": "2013/11/01",
-    "url": "/article/on-velocityraptors.html",
-    "image": "/images/no-velocityraptor.png",
-    "canonical": "http://thoughtworks.github.io/p2/issue3/velocityraptors/",
-    "content": "on-velocityraptors.md",
-    "tags": ["agile", "velocity"]
-  }
 ]

@@ -1,5 +1,12 @@
 [
   {
+    "title": ["Debugging is bad for you"],
+    "brief": "Using the debugger is no better than manually checking your printed out source code. There is a better way.",
+    "where": "P2 Magazine",
+    "date": "2013/12/01",
+    "url": "http://thoughtworks.github.io/p2/issue07/debugging-is-bad-for-you/"
+  },
+  {
     "title": ["Four ways to split a story"],
     "brief": "Approaches to reducing story complexity for iterative development.",
     "where": "P2 Magazine",
@@ -26,5 +33,47 @@
     "where": "P2 Magazine",
     "date": "2013/10/01",
     "url": "http://thoughtworks.github.io/p2/issue05/anonymous-functions/"
+  },
+  {
+    "title": ["A well rounded bias"],
+    "brief": "Assumptions making an arse out of me and umption.",
+    "where": "P2 Magazine",
+    "date": "2013/10/01",
+    "url": "http://thoughtworks.github.io/p2/issue04/rounded-bias/"
+  },
+  {
+    "title": ["Testing makes it hard to test"],
+    "brief": "Only testing at one level makes your code harder, not easier to test.",
+    "where": "P2 Magazine",
+    "date": "2013/10/01",
+    "url": "http://thoughtworks.github.io/p2/issue04/testing-hard/"
+  },
+  {
+    "title": ["Test Augmentation"],
+    "brief": "Supercharged manual testing as an alternative to challenging test automation projects.",
+    "where": "P2 Magazine",
+    "date": "2013/09/01",
+    "url": "http://thoughtworks.github.io/p2/issue03/test-augmentation/"
+  },
+  {
+    "title": ["On Velocityraptors"],
+    "brief": "How to outwit and out-wile the most agile of predators.",
+    "where": "P2 Magazine",
+    "date": "2013/09/01",
+    "url": "http://thoughtworks.github.io/p2/issue03/velocityraptors/"
+  },
+  {
+    "title": ["Honey, I think I Just Made a Factory in JS"],
+    "brief": "On idiomatic programming.",
+    "where": "P2 Magazine",
+    "date": "2013/08/01",
+    "url": "http://thoughtworks.github.io/p2/issue02/factory/"
+  },
+  {
+    "title": ["The King is Dead, Long Live the King"],
+    "brief": "An apocryphal story about test automation.",
+    "where": "P2 Magazine",
+    "date": "2013/07/01",
+    "url": "http://thoughtworks.github.io/p2/issue01/the-king-is-dead/"
   }
 ]
