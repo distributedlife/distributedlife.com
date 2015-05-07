@@ -1,5 +1,13 @@
 [
   {
+    "title": ["Snap CI Artefact Grabber on rubygems"],
+    "brief": "I made a little gem to make it easier to pull artefacts off Snap CI using ruby. It's useful when building dashboards.",
+    "where": "github",
+    "date": "2015/05/07",
+    "action": "grab it",
+    "url": "https://github.com/distributedlife/snap-ci-artefact-grabber"
+  },
+  {
     "title": ["New blog layout"],
     "brief": "I've redesigned this place to look better on mobile, tablet or desktop. I have also restructured it to make it easier to find out what I'm working on or to find the articles worth reading.",
     "where": "news",
