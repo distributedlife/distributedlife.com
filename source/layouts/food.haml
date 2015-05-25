@@ -17,12 +17,13 @@
       %link{:rel => "canonical", :href => data['canonical']}
     - else
       %link{:rel => "canonical", :href => "#{site_url}#{current_page.url}"}
-  %body
+  %body.food
     = partial "/templates/iconic"
-    = partial "/templates/blog/banner", {:locals => {:title => data['title'], :banner => data['banner'], :lede => data['lede']}}
-    = partial "/templates/blog/content", {:locals => {:content => content, :canonical => data['canonical'], :title => data['title'].join(" "), :where => data['where']}}
-    = partial "/templates/share", {:locals => {:title => data['title'].join(" "), :brief => data['brief'], :image => data['image']}}
-    = partial "/templates/author"
-    = partial "/templates/footer"
-    = partial "/templates/analytics"
+    = partial "/templates/iconic-food"
+    = partial "/templates/food/banner", {:locals => {:title => data['title'] }}
+    = partial "/templates/food/content", {:locals => {:content => content}}
+    .hessian
+      = partial "/templates/share", {:locals => {:title => data['title'].join(" "), :brief => data['brief'], :image => data['image']}}
+      = partial "/templates/footer"
+      = partial "/templates/analytics"
     %script{:src => "/javascripts/share.js"}

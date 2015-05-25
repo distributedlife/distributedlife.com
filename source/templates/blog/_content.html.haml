@@ -1,0 +1,7 @@
+.content
+  %article.type-system-traditional
+    = Tilt['markdown'].new { content }.render(scope=self)
+    %hr
+    - unless canonical.nil?
+      %p
+        %a{:href => canonical, :rel => "canonical", :target => "_blank"}= "#{title} was first published in #{where}."

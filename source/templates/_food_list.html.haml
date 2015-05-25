@@ -1,0 +1,11 @@
+.content
+  %ul.recent-3
+    - items.each_with_index do |food, index|
+      %li.recently
+        %a{:href => food[:url]}
+          %img{src: food[:image]}
+          %h1=food[:title].join(" ")
+          .brief
+            =food[:brief]
+      - if index <= items.length
+        %hr

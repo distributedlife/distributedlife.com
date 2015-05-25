@@ -1,0 +1,10 @@
+.banner
+  - unless banner.nil?
+    %img{:src => banner}
+  - else
+    .solid
+  %h1
+    - title.each do |word|
+      %span= word
+    - unless lede.nil?
+      %p.lede= lede

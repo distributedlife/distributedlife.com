@@ -1,0 +1,14 @@
+!!!html
+%html
+  %head
+    = partial "/templates/meta", {:locals => {:title => "#{title} | distributedlife", :date => Date.today}}
+    %meta{:name => "og:image", :content => "/images/site/me.jpg"}
+    %meta{:name => "description", :content => "All the latest #{title.join(" ").downcase}"}
+  %body.food
+    = partial "/templates/iconic"
+    = partial "/templates/iconic-food"
+    = partial "/templates/food/banner", {:locals => {:title => title}}
+    = partial "/templates/food_list", :locals => {:items => items, :show_link_to_all => false}
+    .hessian
+      = partial "/templates/footer"
+      = partial "/templates/analytics"

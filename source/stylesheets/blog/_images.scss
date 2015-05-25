@@ -2,92 +2,92 @@ figure, figcaption {
   display:block;
 }
 
-.polaroid{
+.polaroid {
   padding: 20px;
-}
 
-.polaroid figure{
-  padding: 6px 8px 10px 8px;
+  figure{
+    padding: 6px 8px 10px 8px;
 
-  background: #eee6d8;
-  background: -webkit-linear-gradient(top, #ede1c9, #fef8e2 20%, #f2ebde 60%);
-  background: -moz-linear-gradient(top, #ede1c9, #fef8e2 20%, #f2ebde 60%);
-  background: -o-linear-gradient(top, #ede1c9, #fef8e2 20%, #f2ebde 60%);
-  background: -ms-linear-gradient(top, #ede1c9, #fef8e2 20%, #f2ebde 60%);
-  background: linear-gradient(top, #ede1c9, #fef8e2 20%, #f2ebde 60%);
+    background: #eee6d8;
+    background: -webkit-linear-gradient(top, #ede1c9, #fef8e2 20%, #f2ebde 60%);
+    background: -moz-linear-gradient(top, #ede1c9, #fef8e2 20%, #f2ebde 60%);
+    background: -o-linear-gradient(top, #ede1c9, #fef8e2 20%, #f2ebde 60%);
+    background: -ms-linear-gradient(top, #ede1c9, #fef8e2 20%, #f2ebde 60%);
+    background: linear-gradient(top, #ede1c9, #fef8e2 20%, #f2ebde 60%);
 
-  -moz-box-shadow: 4px 4px 8px -4px rgba(0, 0, 0, .75);
-  box-shadow: 4px 4px 8px -4px rgba(0, 0, 0, .75);
-}
+    -moz-box-shadow: 4px 4px 8px -4px rgba(0, 0, 0, .75);
+    box-shadow: 4px 4px 8px -4px rgba(0, 0, 0, .75);
+  }
 
-.polaroid figure{
-  -webkit-transform:rotate(-1deg);
-  -moz-transform: rotate(-1deg);
-  -o-transform: rotate(-1deg);
-  -ms-transform: rotate(-1deg);
-  transform: rotate(-1deg);
-  -webkit-backface-visibility:hidden;
-}
-.polaroid figure:nth-child(even) {
-  -webkit-transform:rotate(2deg);
-  -moz-transform: rotate(2deg);
-  -o-transform: rotate(2deg);
-  -ms-transform: rotate(2deg);
-  transform: rotate(2deg);
+  figure{
+    -webkit-transform:rotate(-1deg);
+    -moz-transform: rotate(-1deg);
+    -o-transform: rotate(-1deg);
+    -ms-transform: rotate(-1deg);
+    transform: rotate(-1deg);
+    -webkit-backface-visibility:hidden;
+  }
 
-  -moz-box-shadow: 4px 4px 8px -4px rgba(0, 0, 0, .75);
-  box-shadow: -4px 4px 8px -4px rgba(0, 0, 0, .75);
-}
+  figure:nth-child(even) {
+    -webkit-transform:rotate(2deg);
+    -moz-transform: rotate(2deg);
+    -o-transform: rotate(2deg);
+    -ms-transform: rotate(2deg);
+    transform: rotate(2deg);
 
-.polaroid figcaption{
-  text-align: center;
-  font-family: 'Reenie Beanie', italic;
-  font-size:1.3em;
-  font-style: italic;
-  color: #454f40;
-  letter-spacing: 0.09em;
-}
+    -moz-box-shadow: 4px 4px 8px -4px rgba(0, 0, 0, .75);
+    box-shadow: -4px 4px 8px -4px rgba(0, 0, 0, .75);
+  }
 
-figure:before {
-  content: '';
-  display: block;
-  position: absolute;
-  left:5px;
-  top: -15px;
-  width: 75px;
-  height: 25px;
-  background-color: rgba(222,220,198,0.7);
+  figcaption{
+    text-align: center;
+    font-family: 'Reenie Beanie', italic;
+    font-size:1.3em;
+    font-style: italic;
+    color: #454f40;
+    letter-spacing: 0.09em;
+  }
 
-  -webkit-transform: rotate(-12deg);
-  -moz-transform: rotate(-12deg);
-  -o-transform: rotate(-12deg);
-  -ms-transform: rotate(-12deg);
-}
+  figure:before {
+    content: '';
+    display: block;
+    position: absolute;
+    left:5px;
+    top: -15px;
+    width: 75px;
+    height: 25px;
+    background-color: rgba(222,220,198,0.7);
 
-figure:after {
-  content: '';
-  display: block;
-  position: absolute;
-  right: -19px;
-  bottom: -12px;
-  width: 75px;
-  height: 25px;
-  background-color: rgba(222,220,198,0.7);
+    -webkit-transform: rotate(-12deg);
+    -moz-transform: rotate(-12deg);
+    -o-transform: rotate(-12deg);
+    -ms-transform: rotate(-12deg);
+  }
 
-  -webkit-transform: rotate(-12deg);
-  -moz-transform: rotate(-12deg);
-  -o-transform: rotate(-12deg);
-  -ms-transform: rotate(-12deg);
-}
+  figure:after {
+    content: '';
+    display: block;
+    position: absolute;
+    right: -19px;
+    bottom: -12px;
+    width: 75px;
+    height: 25px;
+    background-color: rgba(222,220,198,0.7);
 
+    -webkit-transform: rotate(-12deg);
+    -moz-transform: rotate(-12deg);
+    -o-transform: rotate(-12deg);
+    -ms-transform: rotate(-12deg);
+  }
 
-figure:nth-child(even):before {
-  left:150px;
-  top: -15px;
-  width: 55px;
-  height: 25px;
-  -webkit-transform: rotate(12deg);
-  -moz-transform: rotate(12deg);
-  -o-transform: rotate(12deg);
-  -ms-transform: rotate(12deg);
+  figure:nth-child(even):before {
+    left:150px;
+    top: -15px;
+    width: 55px;
+    height: 25px;
+    -webkit-transform: rotate(12deg);
+    -moz-transform: rotate(12deg);
+    -o-transform: rotate(12deg);
+    -ms-transform: rotate(12deg);
+  }
 }

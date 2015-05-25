@@ -1,0 +1,1 @@
+The lemon tree out back is lit up like a zesty little xmas tree. Between 30 and 40 fruits are ripe now. Speaking with Jess' parents I found out today that a lemon tree will continue to fruit throughout the year. Little green nubs reaffirm my fears. The lemons are coming. They will surely overwhelm me.

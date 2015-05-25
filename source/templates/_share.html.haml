@@ -1,0 +1,18 @@
+.share
+  .header
+    %h1 share this with someone
+  .content
+    .call-to-action
+      .share-options
+        .twitter
+          %a{:href => "javascript:twitterShare('https://twitter.com/share?via=distributedlife&text=#{title}&dnt=true')", :class => "twitter-share-button"}
+            %img.flat{:width=>"64px", :height => "52px", :src => "/images/site/twitter.png"}
+        .google
+          %a{:href => "https://plus.google.com/share?url={#{site_url}#{current_page.url}}", :onclick => "javascript:window.open(this.href, '', 'menubar=no,toolbar=no,resizable=yes,scrollbars=yes,height=600,width=600');return false;"}
+            %img{:width=>"64px", :height => "64px", :src => "/images/site/googleplus.png", :alt => "Share on Google+"}
+        .facebook
+          %a{:href => "javascript:fbShare('#{site_url}#{current_page.url}', '#{title}', '#{brief}', '#{image}')"}
+            %img{:width=>"64px", :height => "64px", :src => "/images/site/facebook.png", :alt => "Share on Facebook"}
+        .email
+          %a{:href => "mailto:?subject=I think you'll enjoy this post: #{title}&body=#{site_url}#{current_page.url} #{brief}"}
+            %img{:width=>"64px", :height => "64px", :src => "/images/site/email.png", :alt => "Share via Email"}

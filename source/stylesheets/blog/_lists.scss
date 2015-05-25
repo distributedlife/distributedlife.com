@@ -60,6 +60,14 @@ li.recently {
     margin-bottom: 0;
   }
 
+  img {
+    float: left;
+    width: auto;
+    max-width: 200px;
+    max-height: 300px;
+    padding: 0em 1em 0 0;
+  }
+
   .click-to-read {
     float: right;
 
@@ -95,7 +103,7 @@ ul.big-options {
   margin: 0 auto;
   padding: 1em;
 
-  background:transparent url('/images/paper.png') center repeat-y;
+  background:transparent url('/images/site/paper.png') center repeat-y;
   background-size: 100% auto;
 
   -moz-box-shadow: 4px 0px 10px 4px rgba(0,0,0,0.31);

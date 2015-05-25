@@ -26,7 +26,7 @@ body {
   @include outer-container;
   @include span-columns(12);
 
-  background:transparent url('/images/paper.png') center repeat-y;
+  background:transparent url('/images/site/paper.png') center repeat-y;
   background-size: 100% auto;
 
   max-width: 100%;
@@ -96,7 +96,7 @@ article {
     height: auto;
 
     background-color: white;
-    -webkit-mask-image: url('/images/circle-img-mask.png');
+    -webkit-mask-image: url('/images/site/circle-img-mask.png');
     -webkit-mask-size: 100% 100%;
   }
 }

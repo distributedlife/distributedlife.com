@@ -1,0 +1,52 @@
+@import url(http://fonts.googleapis.com/css?family=Cabin+Sketch|Amatic+SC);
+@import url(http://fonts.googleapis.com/css?family=Great+Vibes);
+@import url(http://fonts.googleapis.com/css?family=Waiting+for+the+Sunrise|Indie+Flower);
+
+.food {
+  .banner {
+    h1 {
+      font-family: "Amatic SC", sans;
+      font-size: 6em;
+      font-weight: 200;
+      margin: 0.5em;
+      text-transform: none;
+      letter-spacing: 0.1em;
+    }
+  }
+
+  .content {
+    h1 {
+      font-family: "Amatic SC", sans;
+    }
+
+    h6 {
+      font-family: "Indie Flower", cursive;
+      font-size: 1.5em;
+    }
+
+    p {
+      font-family: $sans-serif;
+    }
+  }
+
+  .header {
+    h1 {
+      font-family: "Amatic SC", sans;
+      font-size: 2em;
+      margin: 0em;
+      padding: 0.5em;
+    }
+  }
+
+  .polaroid figcaption {
+    font-family: "Indie Flower", cursive;
+  }
+
+  .copyright {
+    font-family: "Amatic SC", sans;
+    font-size: 1.2em;
+    font-weight: bold;
+    padding-top: 0.6em;
+    padding-bottom: 0.6em;
+  }
+}

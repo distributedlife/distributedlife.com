@@ -1,0 +1,36 @@
+.food {
+  .banner {
+    background-image: url(/images/site/canvas.jpg);
+  }
+
+  .header {
+    background-image: url(/images/site/canvas.jpg);
+  }
+
+  .author {
+    .content {
+      background: none;
+    }
+  }
+
+  .hessian {
+    background-image: url(/images/site/canvas.jpg);
+  }
+
+  .content {
+    background-color: white;
+    background-image: none;
+    padding: 0 5%;
+
+    @include outer-container;
+    @include span-columns(12);
+
+    max-width: 100%;
+  }
+
+  .share {
+    .content {
+      background: none;
+    }
+  }
+}
