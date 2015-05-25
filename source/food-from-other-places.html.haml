@@ -1,7 +1,7 @@
 !!!html
 %html
   %head
-    = partial "/templates/meta", {:locals => {:title => "#{title} | distributedlife", :date => Date.today}}
+    = partial "/templates/meta", {:locals => {:title => "#{title.join(" ")} | distributedlife", :date => Date.today}}
     %meta{:name => "og:image", :content => "/images/site/me.jpg"}
     %meta{:name => "description", :content => "All the latest #{title.join(" ").downcase}"}
   %body.food
