@@ -26,7 +26,7 @@ I don't think it matters too much.
 
 I think it helps keep the salt pressed up against the flesh of the lemon. You've salted the insides, closed it up and put the whole lemon into the jar. As the siblings of the lemon push down upon it like corpses in a mass grave, the salt can't escape from it's sour lemony coffin. This is what we want. Salted lemons.
 
-On the topic of forcing the lemons in. I've always felt that if you've got to force something you're doing it wrong. Here, forcing is part of doing it right. It frees the juices from the lemons and lets you get a more lemons in. A coffee tamper works a treat. Just make sure it's clean.
+On the topic of forcing the lemons in. I've always felt that if you've got to force something you're doing it wrong. Here, forcing is part of doing it right. It frees the juices from the lemons and lets you get more lemons in. A coffee tamper works a treat. Just make sure it's clean.
 
 When you’ve finished seeing how much force you can apply to lemons without breaking the jar it’s time to add some lemon juice. Do you have any lemons left? Otherwise, it’s a long, sobering walk to the tree out back. If your lemons are like mine then they’re going to be the fruit equivalent of an echidna. Spiky balls of sour joy and a bitch to juice. Cut just the ends off before you slice it in half. Now it’ll be easier to juice. Do the same to the lemons.
 
