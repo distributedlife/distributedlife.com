@@ -484,6 +484,8 @@ figure, figcaption {
 
 .polaroid {
   padding: 20px; }
+  .polaroid figure.hidden {
+    display: none; }
   .polaroid figure {
     padding: 6px 8px 10px 8px;
     background: #eee6d8;

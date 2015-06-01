@@ -1,25 +1,24 @@
 [
   {
     "title": ["Preserving", "Lemons"],
-    "from": ["North Africa", "India"],
     "date": "2015/05/25",
-    "tags": ["lemons", "preserving"],
+    "tags": ["lemons", "preserving", "North Africa", "India"],
     "image": "/images/food/preserved-lemons.jpg",
     "where": "Food from Other Places",
     "inspiration": ["http://www.daringgourmet.com/2014/04/08/how-to-make-preserved-lemons-moroccan-middle-eastern-cooking/", "http://notwithoutsalt.com/preserved-lemons-to-give-or-keep/","http://www.saveur.com/article/Recipes/Classic-Preserved-Lemons"]
   },
   {
     "title": ["Persimmon", "Jam"],
-    "from": ["Asia, America, Europe"],
-    "date": "2016/05/14",
-    "tags": ["persimmons", "preserving"],
-    "inspiration": []
+    "date": "2015/06/1",
+    "tags": ["persimmons", "preserving", "Asia", "America", "Europe"],
+    "image": "/images/food/persimmon-jam.jpg",
+    "where": "Food from Other Places",
+    "inspiration": ["http://food52.com/recipes/20481-persimmon-ice-cream", "http://www.pickyourown.org/persimmonjelly.php"]
   },
   {
     "title": ["Stir Fry", "with", "Persimmon Jam", "and", "Lemon Zest"],
-    "from": ["Asia"],
     "date": "2016/05/17",
-    "tags": ["persimmons", "jam", "vegetables", "stir fry", "lemons", "fusion"],
+    "tags": ["persimmons", "jam", "vegetables", "stir fry", "lemons", "fusion", "Asia"],
     "inspiration": []
   },
   {

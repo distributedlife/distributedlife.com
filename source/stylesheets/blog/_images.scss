@@ -5,6 +5,10 @@ figure, figcaption {
 .polaroid {
   padding: 20px;
 
+  figure.hidden {
+    display: none;
+  }
+
   figure{
     padding: 6px 8px 10px 8px;
 
