@@ -74,7 +74,7 @@ Such sensible advice.
 
 Once I add the sugar it takes on a reassuring consistency. This is what I have been looking for. I let that simmer for a bit before applying the second piece of advice my mother gave me.
 
-Have a plate and a spoon in the fridge ready. When you want to test the consistency take using the spoon to dab a dollop onto the plate. Put it in the fridge for another minute. What you have now will be the eventual consistency.
+Have a plate and a spoon in the fridge ready. When you want to test the consistency take using the spoon to dab a dollop onto the plate. Put it in the fridge for another minute. What is on your chilled spoon will be the eventual consistency once all is said and done.
 
 I do this and it's jam-like. I don't eat jam that often so I don't know what I like. It's thick and I'm satisfied. In hindsight I would prefer a more fluid jam.
 
@@ -82,9 +82,9 @@ I do this and it's jam-like. I don't eat jam that often so I don't know what I l
 
 The next act involved doing things I never knew done. Once you have boiled or air-sterilised your jars you fill them with jam. OK, sure, I knew about that bit; stay with me. Next we affix a lid and drop the jars into a vat of boiling water. The wily keep their secrets about how to get jars of jam out of vats of boiling water.
 
-Some people use a jar-grabber. A purpose built device for pulling jam out of a vat of boiling water. This industry is rife with single-purpose contraptions. Just like a I don't have a Foley Food Mill, I don't have a jar-grabber. Unlike the sieve incident I came up with a solution that worked.
+Some people use a jar-grabber. A purpose built device for pulling jam out of a vat of boiling water. This industry is rife with single-purpose contraptions. Just like I don't have a Foley Food Mill, I don't have a jar-grabber. Unlike the sieve incident I came up with a solution that worked.
 
-A found some twine and tied it around the jars, just under the lid. I used the twine to lower and raise the jars from the bath.  Success. And there was only one incident where the string came in contact with the burner and a flame moved deliberately along the twine like an ignited fuze in a Wile E. Coyote short.
+I found some twine and tied it around the jars, just under the lid. I used the twine to lower and raise the jars from the bath.  Success. And there was only one incident where the string came in contact with the burner and a flame moved deliberately along the twine like an ignited fuze in a Wile E. Coyote short.
 
 Jess put that out. Thanks Jess.
 
