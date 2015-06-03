@@ -61,6 +61,7 @@ I combine my pathetic amount of frothy persimmon juice and the hand mushed pulp 
 I add the pectin and let it boil. Now it's time for the sugar.
 
 # how much sugar!?
+
 One recipe I looked at suggest that I use 3.5 cups of sugar for 8 lb (3.63 kg) of persimmon. Another suggested I use 6 cups for 8 pieces of fruit. Am I making jam or flavoured sugar?
 
 The fruit I had were about 100-150 grams (~3-5 oz) each. This gives me a range of 1/8 to 6/8 of a cup of sugar per piece of fruit.
@@ -79,11 +80,11 @@ I do this and it's jam-like. I don't eat jam that often so I don't know what I l
 
 # bottling
 
-The next act involved things I never knew done. Once you have boiled or air-sterilised your jars you can fill them with jam. Affix a lid and drop them into a vat of boiling water. The wily will keep their secrets about how to get jars of jam out of vats of boiling water.
+The next act involved doing things I never knew done. Once you have boiled or air-sterilised your jars you fill them with jam. OK, sure, I knew about that bit; stay with me. Next we affix a lid and drop the jars into a vat of boiling water. The wily keep their secrets about how to get jars of jam out of vats of boiling water.
 
-Some people use a jar-grabber. A purpose built device for pulling jam out of vats of boiling water. This industry is rife with single-use contraptions. Just like a I don't have a Foley Food Mill I don't have a jar-grabber. Unlike the sieve incident I came up with a simple solution that worked.
+Some people use a jar-grabber. A purpose built device for pulling jam out of a vat of boiling water. This industry is rife with single-purpose contraptions. Just like a I don't have a Foley Food Mill, I don't have a jar-grabber. Unlike the sieve incident I came up with a solution that worked.
 
-A found some twine and tied it around the jars, just under the lid. I used the twine to lower and raise the jars from the bath.  Success. And there was only one incident where the string came in contact with the burner and a flame moved deliberately along the twine like the ignited fuze in a Wile E. Coyote short.
+A found some twine and tied it around the jars, just under the lid. I used the twine to lower and raise the jars from the bath.  Success. And there was only one incident where the string came in contact with the burner and a flame moved deliberately along the twine like an ignited fuze in a Wile E. Coyote short.
 
 Jess put that out. Thanks Jess.
 
