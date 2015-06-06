@@ -40,7 +40,7 @@ Once diced I need to heat the persimmons. This will soften them up with the goal
 
 What a clusterfuck that became.
 
-I heated the little bastards up. But the lack of ripeness meant little juice seeped from the flesh. I was expecting something with the consistence of a stew. I got warm fruit pieces in a pan. I gave them a mush and add a touch of water to get things moving. The persimmon chunks relent and start to give up their juicy secrets.
+I heated the little bastards up. But the lack of ripeness meant little juice seeped from the flesh. I was expecting something with the consistency of a stew. I got warm fruit pieces in a pan. I gave them a mush and add a touch of water to get things moving. The persimmon chunks relent and start to give up their juicy secrets.
 
 Contents of one saucepan: persimmon sludge with chunks and skin.
 
@@ -62,7 +62,7 @@ I add the pectin and let it boil. Now it's time for the sugar.
 
 # how much sugar!?
 
-One recipe I looked at suggest that I use 3.5 cups of sugar for 8 lb (3.63 kg) of persimmon. Another suggested I use 6 cups for 8 pieces of fruit. Am I making jam or flavoured sugar?
+One recipe I looked at suggested that I use 3.5 cups of sugar for 8 lb (3.63 kg) of persimmon. Another suggested I use 6 cups for 8 pieces of fruit. Am I making jam or flavoured sugar?
 
 The fruit I had were about 100-150 grams (~3-5 oz) each. This gives me a range of 1/8 to 6/8 of a cup of sugar per piece of fruit.
 
@@ -74,7 +74,7 @@ Such sensible advice.
 
 Once I add the sugar it takes on a reassuring consistency. This is what I have been looking for. I let that simmer for a bit before applying the second piece of advice my mother gave me.
 
-Have a plate and a spoon in the fridge ready. When you want to test the consistency take using the spoon to dab a dollop onto the plate. Put it in the fridge for another minute. What is on your chilled spoon will be the eventual consistency once all is said and done.
+Have a plate and a spoon in the fridge ready. When you want to test the consistency use the spoon to dab a dollop onto the plate. Put it in the fridge for another minute. What is on your chilled spoon will be the eventual consistency once all is said and done.
 
 I do this and it's jam-like. I don't eat jam that often so I don't know what I like. It's thick and I'm satisfied. In hindsight I would prefer a more fluid jam.
 
