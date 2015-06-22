@@ -776,6 +776,9 @@ a.button:hover {
   transition: all .5s ease-in-out;
   opacity: 1; }
 
+.food article a {
+  vertical-align: super;
+  font-size: 0.83em; }
 .food .banner h1 {
   font-family: "Amatic SC", sans;
   font-size: 6em;

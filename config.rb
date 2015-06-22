@@ -34,7 +34,8 @@ articles = data.articles
 elsewhere = data.elsewhere
 til = data.til
 projects = data.projects
-food = past_and_present(data.food).map { |dish| fleshout_dish(dish) }
+all_food = data.food.map { |dish| fleshout_dish(dish) }
+food = past_and_present(all_food)
 travel = []
 fountainhead = []
 
@@ -75,7 +76,7 @@ til.each do |til|
   proxy til.url, "article.html", :locals => {:data => til, :content => content, :layout => "source/layouts/article.html.haml"}
 end
 
-food.each do |dish|
+all_food.each do |dish|
   begin
     content = File.read("data/food/#{dish.id}.md")
 

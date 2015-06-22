@@ -3,6 +3,12 @@
 @import url(http://fonts.googleapis.com/css?family=Waiting+for+the+Sunrise|Indie+Flower);
 
 .food {
+  article {
+    a {
+      vertical-align: super;
+      font-size: 0.83em;
+    }
+  }
   .banner {
     h1 {
       font-family: "Amatic SC", sans;
