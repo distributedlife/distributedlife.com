@@ -19,9 +19,9 @@
     "title": ["Ramen"],
     "date": "2015/06/24",
     "tags": ["ramen", "Japan"],
-    "image": "/images/food/ramen.jpg",
+    "image": "/images/food/ramen-work.jpeg",
     "where": "Food from Other Places",
-    "inspiration": []
+    "inspiration": ["http://www.epicurious.com/recipes/food/views/shoyu-ramen-51187270"]
   },
   {
     "title": ["A Stir Fry"],
