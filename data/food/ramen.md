@@ -1,4 +1,4 @@
-In Yokohama I visited the ramen museum. It’s set underground in a three-story recreation of the streets of 1958 Japan. That was the year that Momofuku Ando invented instant ramen. A fake dusky orange sun sets amongst tight concrete corridors. As no natural light penetrates the place has a gritty post-apocalyptic vibe. An apocalypse with ramen? That’s one we can all enjoy.
+In Yokohama I visited the ramen museum. It’s set underground in a three-story recreation of the streets of 1958 Japan. That was the year that Momofuku Ando invented instant ramen. A fake dusky orange sun sets amongst tight concrete corridors. As no natural light penetrates, the place has a gritty post-apocalyptic vibe. An apocalypse with ramen? That’s one we can all enjoy.
 
 When I went back to Japan with Jess we never ventured out to the Ramen museum. The shops there have a policy where two-people can’t share a bowl of ramen. The rule is a bowl of ramen per customer per restaurant. These *rules* make the place feel more of a themed food-court rather than the ramen-celebrating food-amusement-park it wants to be.
 
@@ -51,7 +51,7 @@ On a whim.
 
 Day two of the recipe involves making a soup stock and then boiling a vegetarian pork roll in it for 2-3 hours. Real pork is normally bound together to stop it from falling apart. I’m not sure what will happen to the veg-pork roll. It could become soggy and drift apart like a croutons in a pond. A totally unsatisfying ramen. A potentially satisfying gruel.
 
-I risk it all and combine the stock and *pork* and let it bubble away for 2-3 hours. I’m looking to get stock down to about 1.6 litres. That’s 400m of stock per bowl. The log stays together than I wrap up and put it in the freezer.
+I risk it all and combine the stock and *pork* and let it bubble away for 2-3 hours. I’m looking to get stock down to about 1.6 litres. That’s 400ml of stock per bowl. The log stays together than I wrap up and put it in the freezer.
 
 When the time comes, bring it out of the freezer and let it defrost for 15 minutes. With a cleaver, cut narrow slices. If you have it defrosted just the right amount your permafrost pork roll will slice cleanly and effortlessly.
 
@@ -61,7 +61,7 @@ Day three is the most enjoyable day. It’s focus is on bringing it all together
 
 Cooking the eggs is fun. The instructions are boil for seven minutes and then plunge into an ice bath. The ice-bath stops the continued cooking off the egg. When you slice it in twain the centre should have a touch of run to it. If you put the egg in the fridge and cut it in half the next day, it’ll maintain its consistency.
 
-My normal experience with food is that longer you cook it the drier or more burnt it becomes. Eggs are strange things when cooked. The temperature directly influences the consistency. Put an egg in the oven at 68° and it’ll reach that level of cooked-ness and remain there. Take it to 72° and it cooks a little more. By plunging them into the ice bath we stop the temperature that would cook the yolk through. And so our egg remains.
+My normal experience with food is that the longer you cook it the drier or more burnt it becomes. Eggs are strange things when cooked. The temperature directly influences the consistency. Put an egg in the oven at 68° and it’ll reach that level of cooked-ness and remain there. Take it to 72° and it cooks a little more. By plunging them into the ice bath we stop the temperature that would cook the yolk through. And so our egg remains.
 
 # Assembling the ramen
 
