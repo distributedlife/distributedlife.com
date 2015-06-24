@@ -45,13 +45,15 @@ I  continue my struggle alone and find everything except bonito flakes. This las
 
 I get home and thrill Jess with my exciting mission. She tells me we already have bonito flakes. She picked them up from a Japanese shop on a whim.
 
+On a whim.
+
 # Day two
 
 Day two of the recipe involves making a soup stock and then boiling a vegetarian pork roll in it for 2-3 hours. Real pork is normally bound together to stop it from falling apart. I’m not sure what will happen to the veg-pork roll. It could become soggy and drift apart like a croutons in a pond. A totally unsatisfying ramen. A potentially satisfying gruel.
 
 I risk it all and combine the stock and *pork* and let it bubble away for 2-3 hours. I’m looking to get stock down to about 1.6 litres. That’s 400m of stock per bowl. The log stays together than I wrap up and put it in the freezer.
 
-When the time comes, bring it out of the freezer and let it defrost for 15 minutes. With a cleaver, cut narrow slices. The permafrost pork roll slices cleanly and effortlessly.
+When the time comes, bring it out of the freezer and let it defrost for 15 minutes. With a cleaver, cut narrow slices. If you have it defrosted just the right amount your permafrost pork roll will slice cleanly and effortlessly.
 
 # Day three
 
@@ -75,13 +77,13 @@ I take the bowls down to Jess as she sits near the oil heater. She takes the bow
 
 She persists and picks up a piece of pork to nibble.
 
-> I can’t. I’m Sorry.
+> I can’t. I’m sorry.
 
 The smell reminds her of a place we went to in China, Zhujiajie. Small passageways wend between shops where boiled body-parts of pig glisten in the sun. The smell was overpowering and somehow the ramen-faux-pork smell brings it all back.
 
 I consume both bowls.
 
-When you consider that I had ramen for lunch that day and for dinner the night before I have had four bowls of ramen within 24 hours; the ramen version of autofellatio. Those that can do, damn the consequences.
+When you consider that I had ramen for lunch that day and for dinner the night before, I have had four bowls of ramen within 24 hours; the ramen version of autofellatio. It's not a question of right or wrong. Those that can do.
 
 Jess had instant noodles.
 
