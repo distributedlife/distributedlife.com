@@ -8,7 +8,7 @@ I hate to see her like this. I did the only thing I know how to do.
 
 # I will make you ramen
 
-I have never fully understood the romanticism of ramen. I know I talk up ramen during the start of this piece and will continue to do so, but that's about setting the tone. I get that it's delicous. I also know that the Japanese, in 2010, voted instant ramen noodles their greatest invention. A friend of mine shared his love for ramen.
+I have never fully understood the romanticism of ramen. I know I talk up ramen during the start of this piece and will continue to do so, but that's about setting the tone. I get that it's delicious. I also know that the Japanese, in 2010, voted instant ramen noodles their greatest invention. A friend of mine shared his love for ramen.
 
 > “Make ramen from scratch at home? I’ll marry you I swear.”
 
@@ -23,7 +23,7 @@ Wow. Do go on.
 # Soaking Kelp
 This is where our ramen journey begins. With a twelve hour soaking of kelp or kombu.
 
-> Fun Fact: In 1908 Kikunae Ikeda was trying to duplicate the flavour of Kombu and recreated Monosodium Glutamate (MSG).
+> Fun Fact: In 1908 Kikunae Ikeda was trying to duplicate the flavour of Kombu and created Monosodium Glutamate (MSG).
 
 I used a recipe from epicurious.com as a blueprint for this dish[1](http://www.epicurious.com/recipes/food/views/shoyu-ramen-51187270). I prepare this recipe over three days. You can make it in 24 hours but it’s less effort to work it over three days.
 
@@ -37,7 +37,7 @@ Here I enjoy the thrilling hunt of finding ingredients. This is the modern incar
 
 Focus.
 
-Then I go through them all again. Surely one of these products is what I need. It’s either on this pass or the next that I’ll find one or two ingredients. I don’t find them the first time because I’m trying to go too fast. The second and third passes involve more detail: reading ingredient lists, playing a rudimentary form of Pictonary with obscure label images and sometimes practicing my Japanese and Chinese. The two languages share about 3,000 shared characters between Japanese and Chinese. I can’t say it in Japanese but the meaning remains the same.
+Then I go through them all again. Surely one of these products is what I need. It’s either on this pass or the next that I’ll find one or two ingredients. I don’t find them the first time because I’m trying to go too fast. The second and third passes involve more detail: reading ingredient lists, playing a rudimentary form of Pictionary with obscure label images and sometimes practicing my Japanese and Chinese. The two languages share about 3,000 shared characters. I can’t say it in Japanese but the meaning remains the same.
 
 When all else has failed, I wander the isles like a ghost; haunted by unfulfilled business. Defeated, my mind leaves the hard problem and jumps to  substitutes and wondering what else I can make with the ingredients I have.
 
@@ -51,21 +51,21 @@ On a whim.
 
 Day two of the recipe involves making a soup stock and then boiling a vegetarian pork roll in it for 2-3 hours. Real pork is normally bound together to stop it from falling apart. I’m not sure what will happen to the veg-pork roll. It could become soggy and drift apart like croutons in a pond. A totally unsatisfying ramen. A potentially satisfying gruel.
 
-I risk it all and combine the stock and *pork* and let it bubble away for 2-3 hours. I’m looking to get stock down to about 1.6 litres. That’s 400ml of stock per bowl. My log stays together then I wrap up and put it in the freezer.
+I risk it all and combine the stock and *pork* and let it bubble away for 2-3 hours. I’m looking to get stock down to about 1.6 litres. That’s 400ml of stock per bowl. My log stays together then I wrap it up and put it in the freezer.
 
-When the time comes, bring it out of the freezer and let it defrost for 15 minutes. With a cleaver, cut narrow slices. If you have it defrosted just the right amount your permafrost pork roll will slice cleanly and effortlessly.
+When the time comes, I bring it out of the freezer and let it defrost for 15 minutes. With a cleaver, I cut narrow slices. If you have it defrosted just the right amount your permafrost pork roll will slice cleanly and effortlessly.
 
 # Day three
 
 Day three is the most enjoyable day. It’s focus is on bringing it all together and then feasting on the rameney-goodness
 
-Cooking the eggs is fun. The instructions are boil for seven minutes and then plunge into an ice bath. The ice-bath stops the continued cooking off the egg. When you slice it in twain the centre should have a touch of run to it. If you put the egg in the fridge and cut it in half the next day, it’ll maintain its consistency.
+Cooking the eggs is fun. The instructions are boil for seven minutes and then plunge into an ice bath. The ice-bath stops the continued cooking of the egg. When you slice it in two the centre should have a touch of run to it. If you put the egg in the fridge and cut it in half the next day, it’ll maintain its consistency.
 
 My normal experience with food is that the longer you cook it the drier or more burnt it becomes. Eggs are strange things when cooked. The temperature directly influences the consistency. Put an egg in the oven at 68° and it’ll reach that level of cooked-ness and remain there. Take it to 72° and it cooks a little more. By plunging them into the ice bath we stop the temperature that would cook the yolk through. And so our egg remains.
 
 # Assembling the ramen
 
-Fan the slices of veg-pork along a short arc upon the noodles. Pour in the ramen stock until it covers the noodles. Where the pork ends the bamboo menma starts. This followed by scallions, our glorious egg and a slice of salty seaweed goodness.
+Fan the slices of veg-pork along a short arc upon the noodles. Pour in the ramen stock until it covers the noodles. Where the pork ends the bamboo menma starts. This followed by scallions, a glorious half-egg and a slice of salty seaweed goodness.
 
 On the surface I slide in a slick of chilli oil and dust with shichimi togarashi. I pluck out a pair of special chopsticks from our trip to Japan. We have two dozen different pairs of chopsticks that we save for special use. A special occasion like one’s first ramen experience is worth breaking in a new pair.
 
@@ -83,7 +83,7 @@ The smell reminds her of a place we went to in China, Zhujiajie. Small passagewa
 
 I consume both bowls.
 
-When you consider that I had ramen for lunch that day and for dinner the night before, I have had four bowls of ramen within 24 hours; the ramen version of autofellatio. It's not a question of right or wrong. Those that can do.
+When you consider that I had ramen for lunch that day and for dinner the night before, I have had four bowls of ramen within 24 hours. It's the ramen version of autofellatio. It's not a question of right or wrong. Those that can, do.
 
 Jess had instant noodles.
 
