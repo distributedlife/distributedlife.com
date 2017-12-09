@@ -14,7 +14,7 @@ def past_and_present items
 end
 
 def create_key article
-  article['title'].join('-').gsub(' ', '-').downcase
+  article['title'].join('-').gsub("'", '').gsub(' ', '-').downcase
 end
 
 def safe_name title
